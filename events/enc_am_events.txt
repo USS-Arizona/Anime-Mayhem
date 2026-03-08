@@ -1,0 +1,1827 @@
+﻿add_namespace = enc_am
+
+country_event = { #3 Rings & Plasma Cartridges
+	id = enc_am.1
+	title = enc_am.1.t
+	desc = enc_am.1.d
+	picture = GFX_event_enc_am_portal
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_reform								   
+	}
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = { #FURRIES
+		name = enc_am.1.a
+		custom_effect_tooltip = enc_am_furries_tt
+		stability_loss_based_on_elites_popularity = yes
+		add_manpower = 30
+		add_popularity = {
+			ideology = intellectuals
+			popularity = 0.1 
+		hidden_effect = {
+			add_ideas = {
+				FOX_acorn_freedom_fighters
+				FOX_mobian_resistance
+			}
+			add_ace = { #Fox McCloud
+				name = "Fox"
+				surname = "McCloud"
+				callsign = "FALKEN"
+				type = fighter_genius
+			}
+			add_ace = { #Cannon Tails
+				name = "Miles"
+				surname = "Prower"
+				callsign = "Tails"
+				type = support_genius
+			}
+			add_ace = { #Movie Tails
+				name = "Tails"
+				surname = "Prower"
+				callsign = "TORNADO"
+				type = fighter_genius
+			}
+			FOX = {
+				FOX_alister_azimuth ={
+					set_nationality = ERB 
+				}
+				FOX_amadeus_prower ={
+					set_nationality = ERB 
+				}
+				FOX_miles_tails_prower ={
+					set_nationality = ERB 
+				}
+				FOX_miles_nine_tails_prower ={
+					set_nationality = ERB 
+				}
+				FOX_fox_mccloud ={
+					set_nationality = ERB 
+				}
+			}
+			set_technology = {
+				implant_rejection_therapy_tech = 1
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 10
+				category = air_tech_category
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 5
+				category = air_tech_category
+			}
+			add_tech_bonus = {
+				bonus = 3
+				uses = 3
+				category = air_tech_category
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 15
+				category = fallout_air_tech_category
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 10
+				category = fallout_air_tech_category
+			}
+			add_tech_bonus = {
+				bonus = 3
+				uses = 5
+				category = fallout_air_tech_category
+			}											  			
+			create_corps_commander = {
+			name = "Major Eddie Foxtrot"
+			traits = {
+				rooted_trait
+				inspirational_trait
+				intelligent_trait
+				Stubborn_trait
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_eddie_foxtrot.dds"
+			skill = 7
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			create_corps_commander = {
+				name = "General Warren R. Monger"
+				traits = {
+					rooted_trait
+					strong_trait
+					intelligent_trait
+					Stubborn_trait
+					eop_enclave_survivor
+					exiled_leader
+					eop_war_hero
+					eop_military_legacy
+					idiot_savant_trait
+				}
+				portrait_path = "gfx/leaders/enc_am_general_monger.dds"
+				skill = 2
+				attack_skill = 5
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 3
+				legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "V1"
+			traits = {
+				lucky_trait
+				idiot_savant_trait
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_v1.dds"
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			
+			create_field_marshal = {
+			name = "Colonel Aronimus Stone"
+			traits = {
+				perceptive_trait
+				awareness_trait
+				survivalist_trait
+				agile_trait
+				observant_leader_trait
+				nimble_leader_trait
+				smooth_talker_trait
+				exiled_leader
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_aronimus_stone.dds"
+			skill = 10
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 9
+			logistics_skill = 8
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Captain Susumu Kodai"
+			traits = {
+				survivalist_trait
+				charismatic_trait
+				inspirational_trait
+				agile_trait
+				lucky_trait
+				expert_improviser
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				Stubborn_trait
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_susumu_kodai.dds"
+			skill = 5
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Doom Slayer"
+			traits = {
+				perceptive_trait
+				survivalist_trait
+				life_giver_trait
+				intelligent_trait
+				agile_trait
+				eop_war_hero
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_doom_slayer.dds"
+			skill = 6
+			attack_skill = 12
+			defense_skill = 10
+			planning_skill = 10
+			logistics_skill = 9
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Big Boss"
+			traits = {
+				perceptive_trait
+				awareness_trait
+				survivalist_trait
+				agile_trait
+				rooted_trait
+				ninja_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_big_boss.dds"
+			skill = 8
+			attack_skill = 6
+			defense_skill = 8
+			planning_skill = 5
+			logistics_skill = 6
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "Dio"
+			traits = {
+				enduring_trait
+				agile_trait
+				nimble_leader_trait
+				eop_war_hero
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_dio.dds"
+			skill = 6
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "SDV-04"
+			traits = {
+				enduring_trait
+				lucky_trait
+				robotics_expert_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_sdv-04.dds"
+			skill = 5
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Amuro Ray"
+			traits = {
+				strong_trait
+				pain_train_trait
+				enduring_trait
+				eop_military_legacy
+				Stubborn_trait
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_amuro_ray.dds"
+			skill = 6
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Char Aznable"
+			traits = {
+				enduring_trait
+				inspirational_trait
+				intelligent_trait
+				charismatic_trait
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_char_aznable.dds"
+			skill = 7
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Goku"
+			traits = {
+				loved_leader_trait
+				ferocious_loyalty_trait
+				enduring_trait
+				charismatic_trait
+				inspirational_trait
+				lucky_trait
+				sneering_imperialist_trait
+				eop_war_hero
+				idiot_savant_trait
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_goku.dds"
+			skill = 10
+			attack_skill = 10
+			defense_skill = 10
+			planning_skill = 10
+			logistics_skill = 10
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "President George Washington"
+			traits = {
+				perceptive_trait
+				enduring_trait
+				cunning_leader_trait
+				smooth_talker_trait
+				urban_assault_specialist
+				logistics_wizard
+				charismatic_trait
+				inspirational_trait
+				intelligent_trait
+				observant_leader_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_george_washington.dds"
+			skill = 7
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 6
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "War Operation Plan Response"
+			traits = {
+				intelligent_trait
+				robotics_expert_trait
+				eop_cybernetic
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_wopr.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 10
+			logistics_skill = 10
+			legacy_id = -1
+			}
+			
+				create_corps_commander = {
+			name = "Yamato Suzume"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_yamato_suzume.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Luna Yamato"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_yamato_mlp.dds"
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Hal 9000"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			skilled_trait
+			enduring_trait
+			robotics_expert_trait
+			eop_cybernetic
+			}
+			portrait_path = "gfx/leaders/enc_am_hal9000.dds"
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 10
+			logistics_skill = 7
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Sam Fisher"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_sam_fisher.dds"
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Master Chief"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_master_chief.dds"
+			skill = 6
+			attack_skill = 10
+			defense_skill = 8
+			planning_skill = 6
+			logistics_skill = 7
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Sephiroth"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			}
+			portrait_path = "gfx/leaders/enc_am_sephiroth.dds"
+			skill = 6
+			attack_skill = 8
+			defense_skill = 8
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Haro"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			robotics_expert_trait
+			eop_cybernetic
+			}
+			portrait_path = "gfx/leaders/enc_am_haro.dds"
+			skill = 6
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 8
+			logistics_skill = 6
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Raiden"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			eop_cybernetic
+			}
+			portrait_path = "gfx/leaders/enc_am_raiden.dds"
+			skill = 6
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Cortana"
+			traits = {
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			robotics_expert_trait
+			eop_cybernetic
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_cortana.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Solaire"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			skilled_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_solaire.dds"
+			skill = 6
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			
+			country_event = { id = enc_am.5 days = 365 }
+			country_event = { id = enc_am.2 }
+			
+					create_corps_commander = {
+			name = "The Engineer"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_the_engineer.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Rick May"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_rick_may.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "The Medic"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_the_medic.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "The Pyro"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_the_pyro.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "The Heavy"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_the_heavy.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Spaccee!!"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_spaccee.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Khrushchev"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_khrushchev.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Crazy Dave"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_crazy_dave.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Freddy Fazbear On A Huey"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_fazbear_huey.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Karl Franz"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_karl_franz.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Luthor Harkon"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_luthor_harkon.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "The Rookie"
+			traits = {
+			lucky_trait
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			eop_enclave_survivor
+			bloody_mess_trait
+			exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_odst.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "General Brasch"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			charismatic_trait
+			inspirational_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_general_brasch.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+					create_corps_commander = {
+			name = "Colonel Cobar"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_colonel_cobar.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Colonel Radec"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_colonel_radec.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Central"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_central.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Enterprise"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_enty.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Hornet"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_hornet.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Iowa"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_iowa.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "New Jersey"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_new_jersey.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Tirpitz"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_kms_tirpitz.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Bismark"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_kms_bismark.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+
+					create_corps_commander = {
+			name = "Musashi"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_kc_ijn_musashi.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Mikasa"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_ijn_mikasa.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Yorktown"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_yorktown.dds"
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Arizona"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_arizona.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Pennsylvania"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_uss_pennsylvania.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Kaga"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_al_ijn_kaga.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Akagi"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_al_ijn_akagi.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Kaga"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_kc_ijn_kaga.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Akagi"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_kc_ijn_akagi.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Takao"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_ijn_Takao.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+					create_corps_commander = {
+			name = "Atago"
+			traits = {
+			survivalist_trait
+			perceptive_trait
+			expert_improviser
+			skilled_trait
+			commando_trait
+			enduring_trait
+			eop_war_hero
+			eop_military_legacy
+			}
+			portrait_path = "gfx/leaders/enc_am_ijn_atago.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+			}
+			
+			country_event = { id = enc_am.5 days = 365 }
+			country_event = { id = enc_am.2 }
+			country_event = { id = enc_am.8 }
+			country_event = { id = enc_am.9 }
+			
+		}
+	}
+	option = { #FURRIES
+		name = enc_am.1.b
+		custom_effect_tooltip = enc_am_no_furries_tt
+	}
+}
+
+
+
+country_event = { #2 American Heroes
+	id = enc_am.2
+	title = enc_am.2.t
+	desc = enc_am.2.d
+	picture = GFX_event_FOX_American_WW_II
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #FURRIES
+		name = enc_am.2.a
+		custom_effect_tooltip = enc_am_american_heroes_tt
+		hidden_effect = {
+		add_manpower = 5
+		add_popularity = {
+			ideology = intellectuals
+			popularity = 0.02
+		}
+		hidden_effect = {
+			add_ideas = FOX_world_war_two_remnants
+			add_ace = { #WW II Dude
+				name = "Marcus"
+				surname = "Lampurt"
+				callsign = "Shamrock"
+				type = fighter_genius
+			}
+			load_oob = FOX_WWII_division_remnants
+			add_equipment_to_stockpile = { #Guns
+				type = ballistic_equipment_2
+				amount = 1945
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Fireteam
+				type = ballistic_fireteam_equipment_2
+				amount = 1941
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #WW2 Fighters
+				type = fighter_equipment_3
+				amount = 600
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Air Rework WW2 Fighters
+				type = fighter_equipment_sad_airman_2
+				amount = 600
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Tanks
+				type = tank_equipment_3
+				amount = 800
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Motorized
+				type = light_motorized_equipment_2
+				amount = 900
+				producer = USA
+			}										 
+			create_field_marshal = {
+			name = "General John Pershing"
+			traits = {
+				observant_leader_trait
+				loved_leader_trait
+				cunning_leader_trait
+				fight_the_power_trait
+				logistics_wizard
+				charismatic_trait
+				inspirational_trait
+				intelligent_trait
+				eop_loyal_american
+				eop_military_legacy
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_john_pershing.dds"
+			skill = 6
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "General Henry H. Arnold"
+			traits = {
+				savage_leader_trait
+				loved_leader_trait
+				cult_of_personality_trait
+				ferocious_loyalty_trait
+				sneering_imperialist_trait
+				charismatic_trait
+				lead_foot_trait
+				eop_brilliant_strategist
+				eop_loyal_american
+				eop_military_legacy
+				Stubborn_trait
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_henry_h_arnold.dds"
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "Petty Officer Paul T. Heinz"
+			traits = {
+				tough_leader_trait
+				intelligent_trait
+				survivalist_trait
+				perceptive_trait
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_loyal_american
+				eop_military_legacy
+				Stubborn_trait
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_Paul_T_Heinz.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Trigger"
+			traits = {
+				sneering_imperialist_trait
+				eop_brilliant_strategist
+				eop_loyal_american
+			}
+			portrait_path = "gfx/leaders/enc_am_trigger.dds"
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+			}
+			country_event = { id = enc_am.4 days = 180 }
+			country_event = { id = enc_am.3 days = 82 }
+			country_event = { id = enc_am.6 days = 100 }									  
+		}
+	}
+}
+
+country_event = { #3 American Grit
+	id = enc_am.3
+	title = enc_am.3.t
+	desc = enc_am.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #American Grit
+		name = enc_am.3.a
+		custom_effect_tooltip = enc_am_american_grit_tt
+	}
+}
+
+country_event = { #4 An Argument of American Heroes
+	id = enc_am.4
+	title = enc_am.4.t
+	desc = enc_am.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Fine
+		name = enc_am.4.a
+		custom_effect_tooltip = enc_am_american_heroes_argument_tt
+	}
+}
+
+country_event = { #5 Remembering Yamato
+	id = enc_am.5
+	title = enc_am.5.t
+	desc = enc_am.5.d
+	picture = GFX_event_enc_am_remembering_yamato
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Sonic...
+		name = enc_am.5.a
+		custom_effect_tooltip = enc_remembering_yamato_tt
+	}
+}
+
+country_event = { #6 American Singers
+	id = enc_am.6
+	title = enc_am.6.t
+	desc = enc_am.6.d
+	picture = GFX_event_enc_am_american_singers
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #The Weather's Fine For Flying~~
+		name = enc_am.6.a
+		custom_effect_tooltip = enc_am_american_singers_tt
+		add_stability = 0.15
+		add_war_support = 0.15
+	}
+}
+
+country_event = { #7 Ducky, Quack Quack
+	id = enc_am.7
+	title = enc_am.7.t
+	desc = enc_am.7.d
+	picture = GFX_event_enc_am_ducky
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_reform	
+		has_completed_focus = enc_accept_slanter
+		has_country_flag = enc_accepted_ncr_leaders 
+		has_completed_focus = enc_ncr_soldiers
+		has_full_control_of_state = 61
+	}
+	option = { #The Weather's Fine For Flying~~
+		name = enc_am.7.a
+		custom_effect_tooltip = enc_ducky_quack_quack_tt
+		stability_loss_based_on_elites_popularity = yes
+		add_manpower = 9
+		add_popularity = {
+			ideology = intellectuals
+			popularity = 0.03
+		}
+		create_corps_commander = {
+			name = "Special Agent Ducky Foxxo"
+			traits = {
+				eop_NCR_american_war_veteran
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_loyal_american
+				sniper_trait
+				enduring_trait
+				survivalist_trait
+				animal_friend_trait
+				inspirational_trait
+				agile_trait
+				ranger_trait
+				exiled_leader
+				winter_specialist
+				rad_rat
+			}
+			portrait_path = "gfx/leaders/enc_am_ducky.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+			}
+	}
+}
+
+country_event = { #8 A Demonic USDA
+	id = enc_am.8
+	title = enc_am.8.t
+	desc = enc_am.8.d
+	picture = GFX_event_hellaverse
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Partying?!
+		name = enc_am.8.a
+		custom_effect_tooltip = enc_FOX_Hellaverse_tt
+		add_manpower = 1250 #Furry Pop, gonna increase it per new furry that joins ERX's Server whenever I update
+		add_manpower = 2492
+		hidden_effect = {
+			add_ideas = FOX_hellaverse_remnants
+			FOX = {
+				FOX_queen_bee_beelzebub ={
+					set_nationality = ERB 
+				}
+				FOX_moxxie ={
+					set_nationality = ERB 
+				}
+			}
+			add_ace = { #Queen Bee 1
+				name = "Queen"
+				surname = "Bee"
+				callsign = "Gluttonous"
+				type = fighter_genius
+			}
+			add_ace = { #Queen Bee 2
+				name = "Sin"
+				surname = "Beezlebub"
+				callsign = "Sweet Honey"
+				type = support_genius
+			}
+			create_corps_commander = {
+			name = "General Loona Hellborn"
+			traits = {
+				eop_war_hero
+				eop_enduring_legacy
+				eop_staunch_defender
+				eop_hell_jumper
+				Stubborn_trait
+				paratrooper
+				eop_enclave_survivor
+				strong_trait
+				pain_train_trait
+				strong_back_trait
+				perceptive_trait
+				awareness_trait
+				sniper_trait
+				night_person_trait
+				enduring_trait
+				animal_friend_trait
+				inspirational_trait
+				gun_nut_trait
+				agile_trait
+				bloody_mess_trait
+				urban_assault_specialist
+				urban_assault_specialist_II
+				fortress_buster
+				air_force_liaison
+				expert_improviser
+				disgruntled
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_loona.dds"
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Brigadier General Vortex Razorback"
+			traits = {
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_hell_jumper
+				Stubborn_trait
+				paratrooper
+				eop_enclave_survivor
+				strong_trait
+				pain_train_trait
+				strong_back_trait
+				awareness_trait
+				sniper_trait
+				night_person_trait
+				enduring_trait
+				animal_friend_trait
+				agile_trait
+				bloody_mess_trait
+				exiled_leader
+				eop_scarred
+			}
+			portrait_path = "gfx/leaders/enc_am_vortex.dds"
+			skill = 3
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+			}
+		}
+	}
+}
+
+country_event = { #9 UNSC
+	id = enc_am.9
+	title = enc_am.9.t
+	desc = enc_am.9.d
+	picture = GFX_event_UNSC
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Partying?!
+		name = enc_am.9.a
+		custom_effect_tooltip = enc_FOX_UNSC_tt
+		add_manpower = 890
+		hidden_effect = {
+			load_oob = FOX_UNSC_remnants
+			add_ideas = {
+				FOX_UNSC_remnants
+				FOX_UNSC_ONI_remnants
+			}
+			add_ace = { #UNSC 1
+				name = "Ashton"
+				surname = "Doolittle"
+				callsign = "Otterman"
+				type = support_genius
+			}
+			add_ace = { #UNSC 2
+				name = "James"
+				surname = "Kennedy"
+				callsign = "Royalty One"
+				type = support_genius
+			}
+			FOX = {
+				FOX_fleet_admiral_hood = {
+					set_nationality = ERB 
+				}
+				FOX_major_general_nicolas_strauss = {
+					set_nationality = ERB 
+				}
+				FOX_colonel_urban_holland = {
+					set_nationality = ERB 
+				}
+				FOX_arbiter = { 
+					set_nationality = ERB 
+				}
+				FOX_Rtas_Vadum = { #Commander
+					set_nationality = ERB 
+				}
+			}
+			create_corps_commander = {
+			name = "Gunnery Sergeant Major Edward J. Buck"
+			traits = {
+				eop_war_hero
+				eop_hell_jumper
+				lucky_trait
+				idiot_savant_trait
+				eop_marine_commander
+				Stubborn_trait
+				paratrooper
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_buck.dds"
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Major Avery Johnson"
+			traits = {
+				eop_war_hero
+				strong_trait
+				sniper_trait
+				enduring_trait
+				charismatic_trait
+				inspirational_trait
+				agile_trait
+				lucky_trait
+				mysterious_stranger_trait
+				eop_marine_commander
+				loved_leader_trait
+				eop_military_legacy
+				eop_enclave_survivor
+				exiled_leader
+			}
+			portrait_path = "gfx/leaders/enc_am_johnson.dds"
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+			}
+			add_equipment_to_stockpile = { #Guns
+				type = ballistic_equipment_2
+				amount = 1945
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Fireteam
+				type = ballistic_fireteam_equipment_2
+				amount = 1945
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Anti Air
+				type = anti_air_equipment_2
+				amount = 2001
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #UNSC Bombers
+				type = strategic_bomber_equipment_4
+				amount = 600
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #UNSC Bombers
+				type = strategic_bomber_equipment_sad_airman_5
+				amount = 600
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Tanks
+				type = tank_equipment_3
+				amount = 522
+				producer = USA
+			}
+			add_equipment_to_stockpile = { #Motorized for compatibility with Vehicles Rework
+				type = light_motorized_equipment_2
+				amount = 636
+				producer = USA
+			}
+		}
+	}
+}
+
+
+country_event = { #10 Enclave? Accepting Mutants? Yeah right! What's next a blond idiot with a 410 foot tall fox?(Yes Kurama is that tall and jacked as shit.)
+	id = enc_am.10
+	title = enc_am.10.t
+	desc = enc_am.10.d
+	picture = GFX_event_FOX_HOLY_FUCK_event
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_reform	
+		has_completed_focus = enc_purge_opposition
+		has_completed_focus = enc_accept_slanter
+		date > 2279.01.01
+		country_exists = NCR
+	}
+	option = { #I thought we were done with this
+		name = enc_am.10.a
+		custom_effect_tooltip = enc_FOX_huh_good_for_something_after_all_tt
+		set_temp_variable = {
+			var = suspicion_change_var
+			value = -200
+		}
+		change_suspicion = yes
+	}
+}
