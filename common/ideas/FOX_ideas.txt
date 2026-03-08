@@ -1,0 +1,228 @@
+ideas = {
+	country = {
+		FOX_acorn_freedom_fighters = {
+			name = "Acorn Royal Army Remnants"
+			picture = FOX_acorn_freedom_fighters
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.15
+				experience_gain_army_factor = 0.02
+				experience_gain_army_unit_factor = 0.05
+				army_core_defence_factor = 0.08
+				army_attack_factor = 0.03
+				breakthrough_factor = 0.04
+				cas_damage_reduction = 0.06
+				initiative_factor = 0.25
+				coordination_bonus = 0.25
+				planning_speed = 0.25
+				max_command_power = 150
+			}
+		}
+		FOX_mobian_resistance = {
+			name = "The Resistance"
+			picture = FOX_mobian_resistance
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.25
+				cas_damage_reduction 0.09
+				initiative_factor = 0.25
+				coordination_bonus = -0.18
+				planning_speed = -0.21
+				political_power_factor = -0.05
+				surrender_limit = 1
+				max_command_power = -50
+			}
+		}
+		FOX_UNSC_remnants = {
+			name = "UNSC Remnants"
+			picture = FOX_UNSC_remnants
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				offence = 0.25
+				defence = 0.25
+				political_power_factor = 0.21
+				stability_factor = 0.05
+				war_support_factor = 0.10
+				air_superiority_bonus_in_combat	= 0.15
+				cas_damage_reduction = 0.18
+				experience_gain_army_unit_factor = 0.21
+				terrain_penalty_reduction = 0.22
+				org_loss_when_moving = -0.12
+				naval_invasion_prep_speed = 0.25
+				naval_invasion_capacity = 25
+				naval_invasion_penalty = -0.15
+				amphibious_invasion = 0.17
+				amphibious_invasion_defence = 0.18
+				invasion_preparation = -0.16
+				dig_in_speed_factor = 0.21
+				max_dig_in_factor = 0.22
+				initiative_factor = 0.25
+				coordination_bonus = 0.25
+				planning_speed = 0.25
+				experience_gain_navy_unit_factor = 0.21
+				naval_accidents_chance = -1
+				naval_coordination = 0.20
+				navy_org_factor = 0.19
+				screening_efficiency = 0.23
+				strike_force_movement_org_loss = -1
+				air_accidents_factor = -1
+				ace_effectiveness_factor = 1
+				air_ace_bonuses_factor = 1
+				air_close_air_support_org_damage_factor = 0.18
+				air_home_defence_factor = 0.12
+				air_manpower_requirement_factor = -0.18
+				air_mission_xp_gain_factor = 1
+				air_training_xp_gain_factor = 0.5
+				air_untrained_pilots_penalty_factor = 0.5
+				air_wing_xp_loss_when_killed_factor = 0.25
+				enemy_army_bonus_air_superiority_factor = -0.25
+				max_command_power = 150
+			}
+		}
+		FOX_UNSC_ONI_remnants = {
+			name = "Office of Naval Intelligence Remnants"
+			picture = FOX_UNSC_ONI_remnants
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				coordination_bonus = -0.19
+				decryption_factor = 1
+				decryption_power_factor = 1
+				encryption_factor = 2
+				crypto_strength = 25
+				navy_intel_to_others = -100
+				intel_network_gain_factor = 1
+				operation_risk = -0.25
+				commando_trait_chance_factor = 1
+				intel_from_combat_factor = 1
+				intel_from_operatives_factor = 1
+				intel_network_gain_factor = 0.25
+				intelligence_agency_defense = -0.50
+				agency_upgrade_time = 0.50
+				max_command_power = -50
+			}
+		}
+		FOX_UNSC_fledgeling_spartan_IV_program = { #On hold until after RBR Updates
+			name = "Fledgeling Spartan IV Program"
+			picture = FOX_UNSC_fledgeling_spartan_IV_program #Needs Image
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.15
+				local_resources_factor = -0.05
+			}
+		}
+		FOX_UNSC_spartan_IV_program = { #On hold until after RBR Updates
+			name = "Spartan IV Program"
+			picture = FOX_UNSC_spartan_IV_program #Needs Image
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				war_stability_factor = 0.15
+				special_forces_training_time_factor = 0.1
+				minimum_training_level = -0.15
+				special_forces_cap_flat = 343
+				military_leader_cost_factor = -0.50
+				army_leader_start_level = 3
+				army_leader_start_attack_level = 2
+				army_leader_start_defense_level = 2
+				army_leader_start_planning_level = 3
+				navy_leader_start_level = 3
+				navy_leader_start_attack_level = 2
+				navy_leader_start_coordination_level = 3
+				navy_leader_start_defense_level = 2
+				navy_leader_start_maneuvering_level	= 3
+				army_speed_factor = 0.15
+				army_strength_factor 0.18
+				army_morale_factor 0.21
+				experience_loss_factor = 0.12
+			}
+		}
+		FOX_hellaverse_remnants = { 
+			name = "Straight From Hell Itself"
+			picture = FOX_hellaverse_remnants
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = 0.05
+				monthly_population = 1
+				political_power_factor = 0.18
+				surrender_limit = 1
+				conscription_factor = 0.52
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				max_command_power = 150
+				weekly_manpower = 2
+				minimum_training_level = -0.16
+				training_time_army_factor = -0.09
+				army_leader_start_level = 1
+				army_leader_start_attack_level = 2
+				air_superiority_bonus_in_combat 0.1
+				army_attack_factor = 0.05
+			}
+		}
+		FOX_world_war_two_remnants = { 
+			name = "American Heroes"
+			picture = FOX_world_war_two_remnants
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.15
+				political_power_factor = 0.15
+				surrender_limit = 1
+				conscription_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_air_factor = 0.1
+				max_command_power = 150
+				minimum_training_level = -0.18
+				training_time_army_factor = -0.1
+				air_superiority_bonus_in_combat 0.1
+				army_attack_factor = 0.05
+			}
+		}
+		FOX_he_is_the_eggman = { #Requires has_country_flag = FOX_eggman_threat_active
+			name = "Looming Eggman Threat"
+			picture = FOX_he_is_the_eggman
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.21
+				minimum_training_level = -0.12
+				training_time_army_factor = -0.1
+			}
+		}
+		FOX_purist_threat = { #Requires has_country_flag = FOX_purist_threat_active
+			name = "Looming Purist Threat"
+			picture = FOX_purist_threat
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.21
+				minimum_training_level = -0.12
+				training_time_army_factor = -0.1
+			}
+		}
+	}
+}

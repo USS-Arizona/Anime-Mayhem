@@ -1,0 +1,423 @@
+leader_traits = {
+	eop_praetorian_general = {
+		random = no
+		political_power_gain = -0.20
+		stability_factor = -0.15
+		war_support_factor = 0.10
+		command_power_gain = 0.08
+		max_command_power = 100
+		minimum_training_level = 0.07
+		command_abilities_cost_factor = -0.12
+		special_forces_cap = 0.09
+		experience_gain_army_factor = -0.05
+		land_reinforce_rate = 0.05
+		army_attack_factor = 0.05
+		army_defence_factor = 0.10
+		army_strength_factor = 0.12
+		army_morale_factor = 0.03
+		army_org_factor = 0.05
+		breakthrough_factor = 0.15
+		coordination_bonus = -0.05
+		experience_gain_army_unit_factor = -0.04
+		experience_loss_factor = 0.17
+		initiative_factor = -0.06
+		max_planning_factor = -0.25
+		planning_speed = 0.25
+	}
+	eop_mobian_general_of_the_army = {
+		random = no
+		political_power_gain = -0.15
+		stability_factor = 0.05
+		war_support_factor = 0.10
+		defensive_war_stability_factor = 0.41
+		offensive_war_stability_factor = 0.29
+		command_power_gain = 0.08
+		max_command_power = 100
+		minimum_training_level = 0.18
+		command_abilities_cost_factor = -0.41
+		special_forces_cap = 0.12
+		experience_gain_army = 0.05
+		experience_gain_army_factor = 0.15
+		conscription_factor = 0.14
+		land_reinforce_rate = 0.10
+		army_attack_factor = 0.10
+		army_defence_factor = 0.25
+		army_attack_against_major_factor = 0.25
+		army_defence_against_major_factor = 0.18
+		army_strength_factor = 0.08
+		army_morale_factor = 0.12
+		army_org_factor = 0.13
+		army_org_regain = -0.08
+		breakthrough_factor = 0.16
+		coordination_bonus = 0.09
+		experience_gain_army_unit_factor = 0.11
+		experience_loss_factor = -0.15
+		initiative_factor = 0.17
+		max_planning_factor = 0.29
+		planning_speed = 0.12
+		attrition = -0.13
+	}
+	eop_mobian_tails_advisor = {
+		random = no
+		air_fuel_consumption_factor = -0.25
+		air_accidents_factor = -0.12
+		air_ace_generation_chance_factor = 0.13
+		ace_effectiveness_factor = 0.08
+		equipment_bonus = {
+			fighter_equipment = {
+				instant = yes
+				air_attack = 0.10
+				air_agility = 0.10
+			}
+			car_fighter_equipment = {
+				instant = yes
+				air_attack = 0.10
+				air_agility = 0.10
+			}
+			hev_fighter_equipment = {
+				instant = yes
+				air_attack = 0.10
+				air_agility = 0.10
+			}
+			long_fighter_equipment = {
+				instant = yes
+				air_attack = 0.10
+				air_agility = 0.10
+			}
+		}
+	}
+	eop_mobian_nine_tails_advisor = {
+		random = no
+		modifier_army_sub_unit_category_front_line_robots_attack_factor = 0.15
+		modifier_army_sub_unit_category_front_line_robots_defence_factor = 0.15
+		equipment_bonus = {
+			support_robot_equipment = {
+				instant = yes
+				soft_attack = 0.15
+				ap_attack = 0.10
+			}
+			combat_robot_equipment = {
+				instant = yes
+				soft_attack = 0.15
+				ap_attack = 0.10
+			}
+			cnc_robot_equipment = {
+				instant = yes
+				soft_attack = 0.15
+				ap_attack = 0.10
+			}
+			security_robot_equipment = {
+				instant = yes
+				soft_attack = 0.15
+				ap_attack = 0.10
+			}
+			power_armor_equipment =  {
+				instant = yes
+				defense = 0.05
+				soft_attack = 0.15
+				hard_attack = 0.07
+				ap_attack = 0.10
+			}
+			infantry_equipment =  {
+				instant = yes
+				defense = 0.03
+				breakthrough = 0.10
+				soft_attack = 0.15
+				hard_attack = 0.07
+				ap_attack = 0.10
+				air_attack = 0.12
+			}
+			motorized_equipment =  {
+				instant = yes
+				defense = 0.04
+				breakthrough = 0.15
+				soft_attack = 0.10
+				hard_attack = 0.06
+				ap_attack = 0.05
+				armor_value = 0.15
+				hardness = 0.20
+			}
+			enc_marine_mechanized_equipment =  {
+				instant = yes
+				defense = 0.04
+				breakthrough = 0.15
+				soft_attack = 0.10
+				hard_attack = 0.06
+				ap_attack = 0.05
+				armor_value = 0.15
+				hardness = 0.20
+			}
+		}
+	}
+	eop_mobian_tails_research_advisor = {
+		random = no
+		research_speed_factor = 0.15
+		equipment_bonus = {
+			support_robot_equipment = {
+				instant = yes
+				soft_attack = 0.10
+				ap_attack = 0.05
+				build_cost_ic = -0.15
+			}
+			combat_robot_equipment = {
+				instant = yes
+				soft_attack = 0.10
+				ap_attack = 0.05
+				build_cost_ic = -0.15
+			}
+			cnc_robot_equipment = {
+				instant = yes
+				soft_attack = 0.10
+				ap_attack = 0.05
+				build_cost_ic = -0.15
+			}
+			security_robot_equipment = {
+				instant = yes
+				soft_attack = 0.10
+				ap_attack = 0.05
+				build_cost_ic = -0.15
+			}
+			fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.15
+			}
+			car_fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.15
+			}
+			hev_fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.10
+			}
+			long_fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.20
+			}
+		}
+	}
+	eop_mobian_nine_tails_research_advisor = {
+		random = no
+		research_speed_factor = 0.15
+		equipment_bonus = {
+			support_robot_equipment = {
+				instant = yes
+				maximum_speed = 0.10
+				hardness = 0.15
+				armor_value = 0.20
+				build_cost_ic = -0.15
+			}
+			combat_robot_equipment = {
+				instant = yes
+				maximum_speed = 0.10
+				hardness = 0.15
+				armor_value = 0.20
+				build_cost_ic = -0.15
+			}
+			cnc_robot_equipment = {
+				instant = yes
+				maximum_speed = 0.10
+				hardness = 0.15
+				armor_value = 0.20
+				build_cost_ic = -0.15
+			}
+			security_robot_equipment = {
+				instant = yes
+				maximum_speed = 0.10
+				hardness = 0.15
+				armor_value = 0.20
+				build_cost_ic = -0.15
+			}
+			power_armor_equipment =  {
+				instant = yes
+				maximum_speed = 0.15
+				hardness = 0.15
+				armor_value = 0.20
+				build_cost_ic = -0.15
+			}
+			infantry_equipment =  {
+				instant = yes
+				build_cost_ic = -0.20
+			}
+			motorized_equipment =  {
+				instant = yes
+				maximum_speed = 0.15
+				build_cost_ic = -0.20
+			}
+			enc_marine_mechanized_equipment =  {
+				instant = yes
+				maximum_speed = 0.15
+				build_cost_ic = -0.20
+			}
+		}
+	}
+	eop_sin_general_of_the_army = {
+		random = no
+		political_power_gain = -0.15
+		stability_factor = -0.05
+		war_support_factor = 0.10
+		defensive_war_stability_factor = 0.29
+		offensive_war_stability_factor = 0.29
+		command_power_gain = 0.15
+		max_command_power = 150
+		minimum_training_level = 0.08
+		command_abilities_cost_factor = -0.36
+		special_forces_cap = 0.25
+		experience_gain_army = 0.03
+		experience_gain_army_factor = 0.12
+		conscription_factor = 0.1
+		land_reinforce_rate = 0.15
+		army_attack_factor = 0.05
+		army_defence_factor = 0.10
+		army_attack_against_major_factor = 0.25
+		army_defence_against_major_factor = 0.18
+		army_strength_factor = 0.05
+		army_morale_factor = 0.15
+		army_org_factor = 0.05
+		army_org_regain = -0.10
+		breakthrough_factor = 0.18
+		coordination_bonus = 0.02
+		experience_gain_army_unit_factor = 0.12
+		experience_loss_factor = -0.20
+		initiative_factor = 0.20
+		attrition = -0.20
+	}
+	eop_sin_general_of_the_air_force = {
+		random = no
+		political_power_gain = -0.15
+		stability_factor = -0.05
+		war_support_factor = 0.10
+		defensive_war_stability_factor = 0.29
+		offensive_war_stability_factor = 0.29
+		command_power_gain = 0.15
+		max_command_power = 150
+		conscription_factor = 0.1
+		coordination_bonus = 0.02
+		experience_gain_air = 0.03
+		experience_gain_air_factor = 0.05
+		ace_effectiveness_factor = 0.1
+		air_ace_generation_chance_factor = 0.07
+		air_escort_efficiency = 0.15
+		air_mission_efficiency = 0.10
+	}
+	eop_sin_of_gluttony = {
+		random = no
+		stability_factor = -0.10
+		monthly_population = 0.25
+		weekly_manpower = 10
+	}
+	eop_moxxie_mayweather = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment =  {
+				instant = yes
+				defense = 0.03
+				breakthrough = 0.10
+				soft_attack = 0.15
+				hard_attack = 0.07
+				ap_attack = 0.10
+				air_attack = 0.12
+			}
+			anti_air_equipment =  {
+				instant = yes
+				defense = 0.03
+				breakthrough = 0.05
+				soft_attack = 0.04
+				hard_attack = 0.07
+				ap_attack = 0.05
+				air_attack = 0.25
+			}
+			anti_tank_equipment =  {
+				instant = yes
+				defense = 0.03
+				breakthrough = 0.10
+				soft_attack = 0.02
+				hard_attack = 0.15
+				ap_attack = 0.25
+				air_attack = 0.03
+			}
+			demolitions_equipment =  {
+				instant = yes
+				defense = 0.03
+				breakthrough = 0.10
+				soft_attack = 0.15
+				hard_attack = 0.07
+				ap_attack = 0.10
+			}
+			fireteam_equipment =  {
+				instant = yes
+				defense = 0.07
+				breakthrough = 0.10
+				soft_attack = 0.15
+				hard_attack = 0.05
+				ap_attack = 0.08
+				air_attack = 0.07
+			}
+		}
+	}
+	FOX_naval_chief_hood = {
+		random = no
+		political_power_gain = -0.10
+		stability_factor = 0.10
+		war_support_factor = 0.05
+		defensive_war_stability_factor = 0.25
+		command_power_gain = 0.12
+		max_command_power = 150
+		conscription_factor = 0.1
+		experience_gain_navy_factor = 0.05
+		weekly_manpower = 2
+		naval_equipment_upgrade_xp_cost = -0.15
+		refit_ic_cost = -0.20
+		experience_gain_navy_unit_factor = 0.15
+		naval_coordination = 0.3
+		naval_morale_factor = 0.3
+		navy_org = 25
+		navy_org_factor = 0.25
+		screening_efficiency = 0.2
+		screening_without_screens = 0.1
+		strike_force_movement_org_loss = -0.15
+	}
+	FOX_UNSC_general_of_the_army = {
+		random = no
+		political_power_gain = -0.15
+		stability_factor = 0.10
+		war_support_factor = 0.05
+		command_power_gain = 0.05
+		max_command_power = 100
+		minimum_training_level = -0.03
+		command_abilities_cost_factor = -0.18
+		special_forces_cap = 0.12
+		experience_gain_army_factor = 0.02
+		land_reinforce_rate = 0.07
+		army_attack_factor = 0.04
+		army_defence_factor = 0.08
+		army_strength_factor = 0.15
+		army_morale_factor = 0.05
+		army_org_factor = 0.10
+		breakthrough_factor = 0.10
+		coordination_bonus = 0.15
+		experience_gain_army_unit_factor = 0.1
+		experience_loss_factor = 0.1
+		initiative_factor = 0.09
+		max_planning_factor = 0.15
+		planning_speed = 0.25
+	}
+	FOX_UNSC_special_warfare_officer = {
+		random = no
+		max_command_power = 50
+		minimum_training_level = -0.08
+		command_abilities_cost_factor = -0.2
+		special_forces_cap = 0.25
+		experience_gain_army_unit_factor = 0.05
+		initiative_factor = 0.09
+	}
+	eop_Echo_Five_Fox_One = {
+		random = no
+		max_command_power = 25
+		coordination_bonus = 0.04
+		ace_effectiveness_factor = 0.08
+		air_ace_generation_chance_factor = 0.07
+		air_escort_efficiency = 0.15
+		air_mission_efficiency = 0.05
+		air_mission_xp_gain_factor = 0.2
+	}
+}

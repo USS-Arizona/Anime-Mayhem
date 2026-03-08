@@ -1,0 +1,617 @@
+characters = {
+	FOX_alister_azimuth = {
+		name = "Praetorian Major General Alister Azimuth"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/enc_furry_alister_azimuth_advisor.dds
+                large = gfx/leaders/enc_furry_alister_azimuth.dds
+            }
+        }
+        corps_commander = {
+			desc = eop_praetorian_general_desc
+			traits = {
+				eop_war_hero
+				strong_trait
+				rooted_trait
+				intelligent_trait
+				agile_trait
+				lucky_trait
+				idiot_savant_trait
+				nimble_leader_trait
+				ferocious_loyalty_trait
+				sneering_imperialist_trait
+				Stubborn_trait
+				urban_assault_specialist
+				exiled_leader
+				eop_military_legacy
+				exiled_leader
+				hidden_sympathies
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+            slot = army_chief
+            idea_token = alister_lombax
+			cost = 140
+			desc = eop_praetorian_general_desc
+            traits = {
+				eop_praetorian_general
+			}
+        }
+	}
+	FOX_amadeus_prower = {
+		name = "General Amadeus Prower"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/enc_furry_amadeus_prower_advisor.dds
+                large = gfx/leaders/enc_furry_amadeus_prower.dds
+            }
+        }
+        field_marshal = {
+			desc = eop_mobian_general_of_the_army_desc
+			traits = {
+				eop_war_hero
+				perceptive_trait
+				sniper_trait
+				enduring_trait
+				charismatic_trait
+				local_leader_trait
+				animal_friend_trait
+				inspirational_trait
+				intelligent_trait
+				agile_trait
+				lucky_trait
+				observant_leader_trait
+				loved_leader_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+				nimble_leader_trait
+				ferocious_loyalty_trait
+				urban_assault_specialist
+				exiled_leader
+				eop_military_legacy
+				fortress_buster
+				air_force_liaison
+				expert_improviser
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+            slot = army_chief
+            idea_token = amadeus_prower_second_best_boi
+			cost = 180
+			desc = eop_mobian_general_of_the_army_desc
+            traits = {
+				eop_mobian_general_of_the_army
+			}
+        }
+	}
+	FOX_miles_tails_prower = {
+		name = "Specialist Miles 'Tails' Prower"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/enc_furry_miles_tails_prower_advisor.dds
+                large = gfx/leaders/enc_furry_specialist_tails.dds
+            }
+        }
+        corps_commander = {
+			desc = eop_tails_desc
+			traits = {
+				enduring_trait
+				lucky_trait
+				robotics_expert_trait
+				perceptive_trait
+				survivalist_trait
+				life_giver_trait
+				intelligent_trait
+				agile_trait
+				urban_assault_specialist
+				paratrooper
+				eop_hell_jumper
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+			}
+			skill = 5
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+            slot = high_command
+            idea_token = miles_tails_prower_air_force
+			cost = 150
+			desc = eop_tails_desc
+            traits = {
+				eop_mobian_tails_advisor
+			}
+        }
+		advisor = {
+            slot = theorist
+            idea_token = miles_tails_prower_research
+			cost = 100
+			desc = eop_tails_desc
+			research_bonus = {
+				air_tech_category = 0.20
+				fighter_tech_category = 0.15
+				naval_air_tech_category = 0.15
+				cas_bomber_tech_category = 0.15
+				bomber_tech_category = 0.15
+				cargo_air_tech_category = 0.15
+				support_anti_air_tech_category = 0.05
+				robotics_tech_category = 0.20
+				electronics = 0.20
+				vehicle_tech_category = 0.20
+			}
+            traits = {
+				eop_mobian_tails_research_advisor
+			}
+        }
+	}
+	FOX_miles_nine_tails_prower = {
+		name = "Special Agent Miles 'Nine Tails' Prower"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/enc_furry_miles_nine_tails_prower_advisor.dds
+                large = gfx/leaders/enc_furry_specialist_nine_tails.dds
+            }
+        }
+        corps_commander = {
+			desc = eop_nine_tails_desc
+			traits = {
+				eop_war_hero
+				eop_mechanized_expert
+				eop_enduring_legacy
+				eop_scarred
+				eop_cybernetic
+				eop_brilliant_strategist
+				eop_hell_jumper
+				Stubborn_trait
+				perceptive_trait
+				sniper_trait
+				enduring_trait
+				survivalist_trait
+				animal_friend_trait
+				intelligent_trait
+				robotics_expert_trait
+				agile_trait
+				lead_foot_trait
+				idiot_savant_trait
+				bloody_mess_trait
+				urban_assault_specialist
+				fortress_buster
+				skirmisher
+				paratrooper
+				air_force_liaison
+				expert_improviser
+				disgruntled
+				substance_abuser
+				hidden_sympathies
+				exiled_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 6
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+            slot = high_command
+            idea_token = miles_nine_tails_prower_air_force
+			cost = 120
+			desc = eop_nine_tails_desc
+            traits = {
+				eop_mobian_nine_tails_advisor
+			}
+        }
+		advisor = {
+            slot = theorist
+            idea_token = miles_nine_tails_prower_research
+			cost = 100
+			desc = eop_nine_tails_desc
+			research_bonus = {
+				air_tech_category = 0.10
+				fighter_tech_category = 0.05
+				naval_air_tech_category = 0.05
+				cas_bomber_tech_category = 0.05
+				bomber_tech_category = 0.05
+				cargo_air_tech_category = 0.05
+				support_anti_air_tech_category = 0.20
+				robotics_tech_category = 0.25
+				electronics = 0.20
+				vehicle_tech_category = 0.25
+			}
+            traits = {
+				eop_mobian_nine_tails_research_advisor
+			}
+        }
+	}
+	FOX_queen_bee_beelzebub = {
+		name = "Major General Queen Beelzebub"
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/enc_furry_beelzebub_advisor.dds
+                large = gfx/leaders/enc_furry_beelzebub.dds
+            }
+        }
+        field_marshal = {
+			desc = eop_sin_general_of_the_army_desc
+			traits = {
+				eop_war_hero
+				eop_enduring_legacy
+				eop_mechanized_expert
+				eop_marine_commander
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_wise_and_confusing
+				eop_hell_jumper
+				Stubborn_trait
+				paratrooper
+				eop_enclave_survivor
+				strong_trait
+				pain_train_trait
+				enduring_trait
+				charismatic_trait
+				animal_friend_trait
+				agile_trait
+				bloody_mess_trait
+				loved_leader_trait
+				cunning_leader_trait
+				nimble_leader_trait
+				negotiator_trait
+				cult_of_personality_trait
+				smooth_talker_trait
+				ferocious_loyalty_trait
+				light_touch_trait
+				fight_the_power_trait
+				urban_assault_specialist
+				urban_assault_specialist_II
+				fortress_buster
+				air_force_liaison
+				naval_liason
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+			}
+			skill = 6
+			attack_skill = 8
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+		advisor = {
+            slot = army_chief
+            idea_token = FOX_General_Bee
+			cost = 200
+			desc = eop_sin_general_of_the_army_desc
+            traits = {
+				eop_sin_general_of_the_army
+			}
+			available = {
+				NOT = {
+					has_idea = FOX_Marshal_Bee
+				}
+			}
+        }
+		advisor = {
+            slot = air_chief
+            idea_token = FOX_Marshal_Bee
+			cost = 150
+			desc = eop_sin_general_of_the_air_force_desc
+            traits = {
+				eop_sin_general_of_the_air_force
+			}
+			available = {
+				NOT = {
+					has_idea = FOX_General_Bee
+				}
+			}
+        }
+		advisor = {
+            slot = cultural_advisor
+            idea_token = FOX_Sin_Bee
+			cost = 80
+			desc = eop_sin_of_gluttony_desc
+            traits = {
+				eop_sin_of_gluttony
+			}
+        }
+	}
+	FOX_moxxie = {
+		name = "Specialist Moxxie Mayweather"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/enc_furry_specialist_moxxie_advisor.dds
+                large = gfx/leaders/enc_furry_specialist_moxxie.dds
+            }
+        }
+        corps_commander = {
+			desc = eop_moxxie_desc
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				survivalist_trait
+				intelligent_trait
+				agile_trait
+				urban_assault_specialist
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+			}
+			skill = 5
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+            slot = theorist
+            idea_token = moxxie_mayweather_research
+			cost = 100
+			desc = eop_moxxie_desc
+			research_bonus = {
+				support_anti_air_tech_category = 0.20
+				infantry_weapons_tech_category = 0.20
+				ballistic_weaponry_tech_category = 0.20
+				energy_weaponry_tech_category = 0.20
+				plasma_weaponry_tech_category = 0.20
+				tesla_weaponry_tech_category = 0.20
+				gauss_weaponry_tech_category = 0.20
+				support_demolitions_tech_category = 0.20
+				support_fireteam_tech_category = 0.20
+				support_anti_tank_tech_category = 0.20
+				support_combat_tech_category = 0.20
+				cat_elite_army = 0.20
+			}
+            traits = {
+				eop_moxxie_mayweather
+			}
+        }
+	}
+	FOX_fleet_admiral_hood = {
+		name = "Fleet Admiral Terrence Hood"
+		portraits = {
+            army = {
+                large = gfx/leaders/FOX_fleet_admiral_hood.dds
+				small = gfx/interface/ideas/FOX_fleet_admiral_hood_advisor.dds
+            }
+        }
+		navy_leader = {
+			desc = FOX_HALO_hood_desc
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 9
+			attack_skill = 5
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 8
+			legacy_id = -1
+		}
+		advisor = {
+            slot = navy_chief
+            idea_token = FOX_naval_chief_hood
+			cost = 200
+			desc = FOX_HALO_hood_desc
+            traits = {
+				FOX_naval_chief_hood
+			}
+        }
+	}
+	FOX_major_general_nicolas_strauss = {
+		name = "Major General Nicolas Strauss"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/FOX_major_general_nicolas_strauss_advisor.dds
+                large = gfx/leaders/FOX_major_general_nicolas_strauss.dds
+            }
+        }
+        field_marshal = {
+			desc = eop_UNSC_general_of_the_army_desc
+			traits = {
+				eop_war_hero
+				perceptive_trait
+				enduring_trait
+				charismatic_trait
+				local_leader_trait
+				animal_friend_trait
+				inspirational_trait
+				intelligent_trait
+				lucky_trait
+				observant_leader_trait
+				loved_leader_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+				ferocious_loyalty_trait
+				urban_assault_specialist
+				exiled_leader
+				eop_military_legacy
+				fortress_buster
+				naval_liason
+				air_force_liaison
+				expert_improviser
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+            slot = army_chief
+            idea_token = UNSC_general_of_the_army
+			cost = 200
+			desc = eop_UNSC_general_of_the_army_desc
+            traits = {
+				FOX_UNSC_general_of_the_army
+			}
+        }
+	}
+	FOX_colonel_urban_holland = {
+		name = "Colonel Urban Holland"
+		portraits = {
+           army = {
+				small = gfx/interface/ideas/FOX_colonel_urban_holland_advisor.dds
+                large = gfx/leaders/FOX_colonel_urban_holland.dds
+            }
+        }
+        corps_commander = {
+			desc = FOX_holland_desc
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				survivalist_trait
+				urban_assault_specialist
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+		advisor = {
+            slot = high_command
+            idea_token = FOX_urban_holland
+			cost = 150
+			desc = FOX_holland_desc
+            traits = {
+				FOX_UNSC_special_warfare_officer
+			}
+        }
+	}
+	FOX_arbiter = {
+		name = "Arbiter Thel 'Vadam"
+		portraits = {
+           army = {
+                large = gfx/leaders/FOX_arbiter.dds
+            }
+        }
+        field_marshal = {
+			desc = FOX_arbiter_desc
+			traits = {
+				eop_war_hero
+				enduring_trait
+				strong_trait
+				agile_trait
+				local_leader_trait
+				animal_friend_trait
+				inspirational_trait
+				intelligent_trait
+				lucky_trait
+				loved_leader_trait
+				flexible_trait
+				ferocious_loyalty_trait
+				urban_assault_specialist
+				exiled_leader
+				eop_military_legacy
+				fortress_buster
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				Stubborn_trait
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	FOX_Rtas_Vadum = {
+		name = "General Rtas 'Vadum"
+		portraits = {
+           army = {
+                large = gfx/leaders/FOX_Rtas_Vadum.dds
+            }
+        }
+        corps_commander = {
+			desc = FOX_fleet_master_desc
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				survivalist_trait
+				agile_trait
+				urban_assault_specialist
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	FOX_fox_mccloud = {
+		name = "Brigadier General Fox James McCloud"
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/enc_furry_Advisor_Fox_James_McCloud.dds
+                large = gfx/leaders/enc_furry_Fox_James_McCloud.dds
+            }
+        }
+		advisor = {
+            slot = air_chief
+            idea_token = FOX_Echo_Five_Fox_One
+			cost = 120
+			desc = eop_Fox_McCloud_desc
+            traits = {
+				eop_Echo_Five_Fox_One
+			}
+        }
+	}
+}
