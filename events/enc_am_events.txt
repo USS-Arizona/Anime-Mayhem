@@ -24,13 +24,13 @@ country_event = { #3 Rings & Plasma Cartridges
 			popularity = 0.1 
 		hidden_effect = {
 			add_ideas = {
-				FOX_acorn_freedom_fighters
-				FOX_mobian_resistance
+				ARI_acorn_freedom_fighters
+				ARI_mobian_resistance
 			}
-			add_ace = { #Fox McCloud
-				name = "Fox"
-				surname = "McCloud"
-				callsign = "FALKEN"
+			add_ace = { #Three Strikes
+				name = "Three"
+				surname = "Strikes"
+				callsign = "Trigger"
 				type = fighter_genius
 			}
 			add_ace = { #Cannon Tails
@@ -45,20 +45,20 @@ country_event = { #3 Rings & Plasma Cartridges
 				callsign = "TORNADO"
 				type = fighter_genius
 			}
-			FOX = {
-				FOX_eddie_foxtrot ={
+			ARI = {
+				ARI_eddie_foxtrot ={
 					set_nationality = ERB 
 				}
-				FOX_general_brasch ={
+				ARI_general_brasch ={
 					set_nationality = ERB 
 				}
-				FOX_miles_tails_prower ={
+				ARI_three_strikes ={
 					set_nationality = ERB 
 				}
-				FOX_miles_nine_tails_prower ={
+				ARI_miles_nine_tails_prower ={
 					set_nationality = ERB 
 				}
-				FOX_fox_mccloud ={
+				ARI_fox_mccloud ={
 					set_nationality = ERB 
 				}
 			}
@@ -169,93 +169,7 @@ country_event = { #2 American Heroes
 				amount = 900
 				producer = USA
 			}										 
-			create_field_marshal = {
-			name = "General John Pershing"
-			traits = {
-				observant_leader_trait
-				loved_leader_trait
-				cunning_leader_trait
-				fight_the_power_trait
-				logistics_wizard
-				charismatic_trait
-				inspirational_trait
-				intelligent_trait
-				eop_loyal_american
-				eop_military_legacy
-				eop_war_hero
-				eop_enclave_survivor
-			}
-			portrait_path = "gfx/leaders/enc_am_john_pershing.dds"
-			skill = 6
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 5
-			legacy_id = -1
-			}
-			create_field_marshal = {
-			name = "General Henry H. Arnold"
-			traits = {
-				savage_leader_trait
-				loved_leader_trait
-				cult_of_personality_trait
-				ferocious_loyalty_trait
-				sneering_imperialist_trait
-				charismatic_trait
-				lead_foot_trait
-				eop_brilliant_strategist
-				eop_loyal_american
-				eop_military_legacy
-				Stubborn_trait
-				eop_war_hero
-				eop_enclave_survivor
-			}
-			portrait_path = "gfx/leaders/enc_am_henry_h_arnold.dds"
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
-			legacy_id = -1
-			}
-			create_field_marshal = {
-			name = "Petty Officer Paul T. Heinz"
-			traits = {
-				tough_leader_trait
-				intelligent_trait
-				survivalist_trait
-				perceptive_trait
-				eop_war_hero
-				eop_brilliant_strategist
-				eop_loyal_american
-				eop_military_legacy
-				Stubborn_trait
-				eop_war_hero
-				eop_enclave_survivor
-			}
-			portrait_path = "gfx/leaders/enc_am_Paul_T_Heinz.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 7
-			logistics_skill = 6
-			legacy_id = -1
-			}
-			create_corps_commander = {
-			name = "Trigger"
-			traits = {
-				sneering_imperialist_trait
-				eop_brilliant_strategist
-				eop_loyal_american
-			}
-			portrait_path = "gfx/leaders/enc_am_trigger.dds"
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
-			}
+
 			country_event = { id = enc_am.4 days = 180 }
 			country_event = { id = enc_am.3 days = 82 }
 			country_event = { id = enc_am.6 days = 100 }									  

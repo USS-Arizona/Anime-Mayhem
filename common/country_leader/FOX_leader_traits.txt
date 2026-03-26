@@ -86,7 +86,7 @@ leader_traits = {
 			}
 		}
 	}
-	eop_mobian_nine_tails_advisor = {
+	eop_v1_advisor = {
 		random = no
 		modifier_army_sub_unit_category_front_line_robots_attack_factor = 0.15
 		modifier_army_sub_unit_category_front_line_robots_defence_factor = 0.15
@@ -149,53 +149,7 @@ leader_traits = {
 			}
 		}
 	}
-	eop_mobian_tails_research_advisor = {
-		random = no
-		research_speed_factor = 0.15
-		equipment_bonus = {
-			support_robot_equipment = {
-				instant = yes
-				soft_attack = 0.10
-				ap_attack = 0.05
-				build_cost_ic = -0.15
-			}
-			combat_robot_equipment = {
-				instant = yes
-				soft_attack = 0.10
-				ap_attack = 0.05
-				build_cost_ic = -0.15
-			}
-			cnc_robot_equipment = {
-				instant = yes
-				soft_attack = 0.10
-				ap_attack = 0.05
-				build_cost_ic = -0.15
-			}
-			security_robot_equipment = {
-				instant = yes
-				soft_attack = 0.10
-				ap_attack = 0.05
-				build_cost_ic = -0.15
-			}
-			fighter_equipment = {
-				instant = yes
-				build_cost_ic = -0.15
-			}
-			car_fighter_equipment = {
-				instant = yes
-				build_cost_ic = -0.15
-			}
-			hev_fighter_equipment = {
-				instant = yes
-				build_cost_ic = -0.10
-			}
-			long_fighter_equipment = {
-				instant = yes
-				build_cost_ic = -0.20
-			}
-		}
-	}
-	eop_mobian_nine_tails_research_advisor = {
+	eop_v1_research_advisor = {
 		random = no
 		research_speed_factor = 0.15
 		equipment_bonus = {

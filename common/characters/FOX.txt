@@ -1,5 +1,5 @@
 characters = {
-	FOX_eddie_foxtrot = {
+	ARI_eddie_foxtrot = {
 		name = "Major Eddie Foxtrot"
 		portraits = {
            army = {
@@ -34,14 +34,14 @@ characters = {
 		advisor = {
             slot = army_chief
             idea_token = eddie_foxtrot
-			cost = 140
+			cost = 120
 			desc = eop_spartan_trainer_desc
             traits = {
 				eop_spartan_trainer
 			}
         }
 	}
-	FOX_general_brasch = {
+	ARI_general_brasch = {
 		name = "General Brasch"
 		portraits = {
            army = {
@@ -87,14 +87,14 @@ characters = {
 		advisor = {
             slot = army_chief
             idea_token = general_brasch
-			cost = 180
+			cost = 150
 			desc = eop_super_earth_general_of_the_army_desc
             traits = {
 				eop_super_earth_general_of_the_army
 			}
         }
 	}
-	FOX_three_strikes = {
+	ARI_three_strikes = {
 		name = "Three 'Trigger' Strikes"
 		portraits = {
            army = {
@@ -132,7 +132,7 @@ characters = {
 			cost = 150
 			desc = eop_trigger_desc
             traits = {
-				eop_trigger_advisor
+				eop_human_trigger_advisor
 			}
         }
 		advisor = {
@@ -157,8 +157,8 @@ characters = {
 			}
         }
 	}
-	FOX_miles_nine_tails_prower = {
-		name = "Special Agent Miles 'Nine Tails' Prower"
+	ARI_v1 = {
+		name = "V1"
 		portraits = {
            army = {
 				small = gfx/interface/ideas/enc_furry_miles_nine_tails_prower_advisor.dds
@@ -166,21 +166,18 @@ characters = {
             }
         }
         corps_commander = {
-			desc = eop_nine_tails_desc
+			desc = eop_v1_desc
 			traits = {
 				eop_war_hero
 				eop_mechanized_expert
 				eop_enduring_legacy
-				eop_scarred
 				eop_cybernetic
-				eop_brilliant_strategist
 				eop_hell_jumper
 				Stubborn_trait
 				perceptive_trait
 				sniper_trait
 				enduring_trait
 				survivalist_trait
-				animal_friend_trait
 				intelligent_trait
 				robotics_expert_trait
 				agile_trait
@@ -194,24 +191,21 @@ characters = {
 				air_force_liaison
 				expert_improviser
 				disgruntled
-				substance_abuser
-				hidden_sympathies
-				exiled_leader
 			}
 			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 6
-			logistics_skill = 2
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id = -1
 		}
 		advisor = {
             slot = high_command
-            idea_token = miles_nine_tails_prower_air_force
-			cost = 120
-			desc = eop_nine_tails_desc
+            idea_token = v1
+			cost = 100
+			desc = eop_v1_desc
             traits = {
-				eop_mobian_nine_tails_advisor
+				eop_v1_advisor
 			}
         }
 		advisor = {
@@ -220,19 +214,18 @@ characters = {
 			cost = 100
 			desc = eop_nine_tails_desc
 			research_bonus = {
-				air_tech_category = 0.10
-				fighter_tech_category = 0.05
-				naval_air_tech_category = 0.05
-				cas_bomber_tech_category = 0.05
-				bomber_tech_category = 0.05
-				cargo_air_tech_category = 0.05
-				support_anti_air_tech_category = 0.20
+				infantry_weapons_tech_category = 0.20
+				ballistic_weaponry_tech_category = 0.20
+				energy_weaponry_tech_category = 0.20
+				plasma_weaponry_tech_category = 0.20
+				tesla_weaponry_tech_category = 0.20
+				gauss_weaponry_tech_category = 0.20
 				robotics_tech_category = 0.25
 				electronics = 0.20
 				vehicle_tech_category = 0.25
 			}
             traits = {
-				eop_mobian_nine_tails_research_advisor
+				eop_v1_research_advisor
 			}
         }
 	}
@@ -658,22 +651,7 @@ FOX_alister_azimuth = {
 	}
 
 
-			create_corps_commander = {
-			name = "V1"
-			traits = {
-				lucky_trait
-				idiot_savant_trait
-				eop_enclave_survivor
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_v1.dds"
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 4
-			legacy_id = -1
-			}
+
 			
 			create_field_marshal = {
 			name = "Colonel Aronimus Stone"
@@ -1807,5 +1785,93 @@ FOX_alister_azimuth = {
 			defense_skill = 4
 			planning_skill = 3
 			logistics_skill = 3
+			legacy_id = -1
+			}
+
+						create_field_marshal = {
+			name = "General John Pershing"
+			traits = {
+				observant_leader_trait
+				loved_leader_trait
+				cunning_leader_trait
+				fight_the_power_trait
+				logistics_wizard
+				charismatic_trait
+				inspirational_trait
+				intelligent_trait
+				eop_loyal_american
+				eop_military_legacy
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_john_pershing.dds"
+			skill = 6
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "General Henry H. Arnold"
+			traits = {
+				savage_leader_trait
+				loved_leader_trait
+				cult_of_personality_trait
+				ferocious_loyalty_trait
+				sneering_imperialist_trait
+				charismatic_trait
+				lead_foot_trait
+				eop_brilliant_strategist
+				eop_loyal_american
+				eop_military_legacy
+				Stubborn_trait
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_henry_h_arnold.dds"
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+			}
+			create_field_marshal = {
+			name = "Petty Officer Paul T. Heinz"
+			traits = {
+				tough_leader_trait
+				intelligent_trait
+				survivalist_trait
+				perceptive_trait
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_loyal_american
+				eop_military_legacy
+				Stubborn_trait
+				eop_war_hero
+				eop_enclave_survivor
+			}
+			portrait_path = "gfx/leaders/enc_am_Paul_T_Heinz.dds"
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 7
+			logistics_skill = 6
+			legacy_id = -1
+			}
+			create_corps_commander = {
+			name = "Trigger"
+			traits = {
+				sneering_imperialist_trait
+				eop_brilliant_strategist
+				eop_loyal_american
+			}
+			portrait_path = "gfx/leaders/enc_am_trigger.dds"
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
 			legacy_id = -1
 			}

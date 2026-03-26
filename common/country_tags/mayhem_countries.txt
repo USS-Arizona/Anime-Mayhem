@@ -1,1 +1,1 @@
-FOX = "countries/FOX.txt"
+ARI = "countries/ARI.txt"
