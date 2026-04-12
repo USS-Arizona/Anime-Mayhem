@@ -1,7 +1,7 @@
 ideas = {
 	country = {
-		FOX_acorn_freedom_fighters = {
-			name = "Acorn Royal Army Remnants"
+		ARI_united_azur_fleets = {
+			name = "United Azur Fleets"
 			picture = FOX_acorn_freedom_fighters
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
@@ -12,6 +12,8 @@ ideas = {
 				experience_gain_army_factor = 0.02
 				experience_gain_army_unit_factor = 0.05
 				army_core_defence_factor = 0.08
+				experience_gain_navy_factor = 0.05
+				
 				army_attack_factor = 0.03
 				breakthrough_factor = 0.04
 				cas_damage_reduction = 0.06
@@ -21,7 +23,7 @@ ideas = {
 				max_command_power = 150
 			}
 		}
-		FOX_mobian_resistance = {
+		ARI_pony_resistance = {
 			name = "The Resistance"
 			picture = FOX_mobian_resistance
 			allowed = { always = no	}
@@ -40,8 +42,27 @@ ideas = {
 				max_command_power = -50
 			}
 		}
-		FOX_UNSC_remnants = {
-			name = "UNSC Remnants"
+				ARI_helgian_remnants = {
+			name = "Helgian Remnants"
+			picture = FOX_mobian_resistance
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.25
+				cas_damage_reduction 0.09
+				initiative_factor = 0.25
+				coordination_bonus = -0.18
+				planning_speed = -0.21
+				political_power_factor = -0.05
+				surrender_limit = 1
+				max_command_power = -50
+			}
+		}
+		ARI_EFSF_remnants = {
+			name = "EFSF Remnants"
 			picture = FOX_UNSC_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
@@ -88,8 +109,56 @@ ideas = {
 				max_command_power = 150
 			}
 		}
-		FOX_UNSC_ONI_remnants = {
-			name = "Office of Naval Intelligence Remnants"
+				ARI_strangereal_remnants = {
+			name = "Strange Real Remnants"
+			picture = FOX_UNSC_remnants
+			allowed = { always = no	}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				offence = 0.25
+				defence = 0.25
+				political_power_factor = 0.21
+				stability_factor = 0.05
+				war_support_factor = 0.10
+				air_superiority_bonus_in_combat	= 0.15
+				cas_damage_reduction = 0.18
+				experience_gain_army_unit_factor = 0.21
+				terrain_penalty_reduction = 0.22
+				org_loss_when_moving = -0.12
+				naval_invasion_prep_speed = 0.25
+				naval_invasion_capacity = 25
+				naval_invasion_penalty = -0.15
+				amphibious_invasion = 0.17
+				amphibious_invasion_defence = 0.18
+				invasion_preparation = -0.16
+				dig_in_speed_factor = 0.21
+				max_dig_in_factor = 0.22
+				initiative_factor = 0.25
+				coordination_bonus = 0.25
+				planning_speed = 0.25
+				experience_gain_navy_unit_factor = 0.21
+				naval_accidents_chance = -1
+				naval_coordination = 0.20
+				navy_org_factor = 0.19
+				screening_efficiency = 0.23
+				strike_force_movement_org_loss = -1
+				air_accidents_factor = -1
+				ace_effectiveness_factor = 1
+				air_ace_bonuses_factor = 1
+				air_close_air_support_org_damage_factor = 0.18
+				air_home_defence_factor = 0.12
+				air_manpower_requirement_factor = -0.18
+				air_mission_xp_gain_factor = 1
+				air_training_xp_gain_factor = 0.5
+				air_untrained_pilots_penalty_factor = 0.5
+				air_wing_xp_loss_when_killed_factor = 0.25
+				enemy_army_bonus_air_superiority_factor = -0.25
+				max_command_power = 150
+			}
+		}
+		ARI_OSS_remnants = {
+			name = "Office of Strategic Services Remnants"
 			picture = FOX_UNSC_ONI_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
@@ -112,8 +181,8 @@ ideas = {
 				max_command_power = -50
 			}
 		}
-		FOX_UNSC_fledgeling_spartan_IV_program = { #On hold until after RBR Updates
-			name = "Fledgeling Spartan IV Program"
+		ARI_fledgeling_Type_II_rigging_program = { #On hold until after RBR Updates
+			name = "Fledgeling Type II Rigging Program"
 			picture = FOX_UNSC_fledgeling_spartan_IV_program #Needs Image
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
@@ -123,8 +192,8 @@ ideas = {
 				local_resources_factor = -0.05
 			}
 		}
-		FOX_UNSC_spartan_IV_program = { #On hold until after RBR Updates
-			name = "Spartan IV Program"
+		ARI_wisdom_cube_program = { #Will allow creation of new Shipgirl Gen.
+			name = "Wisdom Cube Program"
 			picture = FOX_UNSC_spartan_IV_program #Needs Image
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
@@ -175,7 +244,7 @@ ideas = {
 				army_attack_factor = 0.05
 			}
 		}
-		FOX_world_war_two_remnants = { 
+		ARI_cold_war_remnants = { 
 			name = "American Heroes"
 			picture = FOX_world_war_two_remnants
 			allowed = { always = no	}

@@ -135,27 +135,6 @@ characters = {
 				eop_human_trigger_advisor
 			}
         }
-		advisor = {
-            slot = theorist
-            idea_token = miles_tails_prower_research
-			cost = 100
-			desc = eop_tails_desc
-			research_bonus = {
-				air_tech_category = 0.20
-				fighter_tech_category = 0.15
-				naval_air_tech_category = 0.15
-				cas_bomber_tech_category = 0.15
-				bomber_tech_category = 0.15
-				cargo_air_tech_category = 0.15
-				support_anti_air_tech_category = 0.05
-				robotics_tech_category = 0.20
-				electronics = 0.20
-				vehicle_tech_category = 0.20
-			}
-            traits = {
-				eop_mobian_tails_research_advisor
-			}
-        }
 	}
 	ARI_v1 = {
 		name = "V1"
@@ -210,7 +189,7 @@ characters = {
         }
 		advisor = {
             slot = theorist
-            idea_token = miles_nine_tails_prower_research
+            idea_token = v1_research
 			cost = 100
 			desc = eop_nine_tails_desc
 			research_bonus = {
@@ -229,8 +208,8 @@ characters = {
 			}
         }
 	}
-	FOX_queen_bee_beelzebub = {
-		name = "Major General Queen Beelzebub"
+	ARI_james_mattis = {
+		name = "Commadant James Mattis"
 		portraits = {
 			army = {
 				small = gfx/interface/ideas/enc_furry_beelzebub_advisor.dds
@@ -238,7 +217,7 @@ characters = {
             }
         }
         field_marshal = {
-			desc = eop_sin_general_of_the_army_desc
+			desc = eop_commadant_of_the_marinecorp_desc
 			traits = {
 				eop_war_hero
 				eop_enduring_legacy
@@ -285,44 +264,21 @@ characters = {
 		}
 		advisor = {
             slot = army_chief
-            idea_token = FOX_General_Bee
+            idea_token = ARI_General_Mattis
 			cost = 200
-			desc = eop_sin_general_of_the_army_desc
+			desc = eop_commadant_of_the_marinecorp_desc
             traits = {
-				eop_sin_general_of_the_army
+				eop_commadant_of_the_marinecorp
 			}
 			available = {
 				NOT = {
-					has_idea = FOX_Marshal_Bee
+					has_idea = ARI_Marshal_Mattis
 				}
-			}
-        }
-		advisor = {
-            slot = air_chief
-            idea_token = FOX_Marshal_Bee
-			cost = 150
-			desc = eop_sin_general_of_the_air_force_desc
-            traits = {
-				eop_sin_general_of_the_air_force
-			}
-			available = {
-				NOT = {
-					has_idea = FOX_General_Bee
-				}
-			}
-        }
-		advisor = {
-            slot = cultural_advisor
-            idea_token = FOX_Sin_Bee
-			cost = 80
-			desc = eop_sin_of_gluttony_desc
-            traits = {
-				eop_sin_of_gluttony
 			}
         }
 	}
-	FOX_moxxie = {
-		name = "Specialist Moxxie Mayweather"
+	ARI_wopr = {
+		name = "War Operation Plan Response"
 		portraits = {
            army = {
 				small = gfx/interface/ideas/enc_furry_specialist_moxxie_advisor.dds
@@ -330,32 +286,30 @@ characters = {
             }
         }
         corps_commander = {
-			desc = eop_moxxie_desc
+			desc = eop_wopr_desc
 			traits = {
 				enduring_trait
-				lucky_trait
 				perceptive_trait
 				survivalist_trait
 				intelligent_trait
-				agile_trait
 				urban_assault_specialist
 				air_force_liaison
 				expert_improviser
 				logistics_wizard
 				exiled_leader
 			}
-			skill = 5
-			attack_skill = 2
+			skill = 6
+			attack_skill = 3
 			defense_skill = 3
-			planning_skill = 6
-			logistics_skill = 5
+			planning_skill = 8
+			logistics_skill = 8
 			legacy_id = -1
 		}
 		advisor = {
             slot = theorist
-            idea_token = moxxie_mayweather_research
+            idea_token = war_operation_planned_research
 			cost = 100
-			desc = eop_moxxie_desc
+			desc = eop_wopr_desc
 			research_bonus = {
 				support_anti_air_tech_category = 0.20
 				infantry_weapons_tech_category = 0.20
@@ -371,7 +325,64 @@ characters = {
 				cat_elite_army = 0.20
 			}
             traits = {
-				eop_moxxie_mayweather
+				eop_wopr
+			}
+        }
+	}
+
+	ARI_henry_arnold = {
+		name = "General Henry 'Hap' Arnold"
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/enc_furry_beelzebub_advisor.dds
+                large = gfx/leaders/enc_furry_beelzebub.dds
+            }
+        }
+        field_marshal = {
+			desc = eop_general_of_the_air_force_desc
+			traits = {
+				eop_war_hero
+				eop_enduring_legacy
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_wise_and_confusing
+				Stubborn_trait
+				eop_enclave_survivor
+				enduring_trait
+				charismatic_trait
+				loved_leader_trait
+				cunning_leader_trait
+				nimble_leader_trait
+				negotiator_trait
+				cult_of_personality_trait
+				smooth_talker_trait
+				ferocious_loyalty_trait
+				light_touch_trait
+				fight_the_power_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+				advisor = {
+            slot = air_chief
+            idea_token = ARI_Marshal_Arnold
+			cost = 150
+			desc = eop_general_of_the_air_force_desc
+            traits = {
+				eop_general_of_the_air_force
+			}
+			available = {
+				NOT = {
+					has_idea = ARI_General_Arnold
+				}
 			}
         }
 	}
@@ -863,23 +874,7 @@ FOX_alister_azimuth = {
 			logistics_skill = 6
 			legacy_id = -1
 			}
-			create_corps_commander = {
-			name = "War Operation Plan Response"
-			traits = {
-				intelligent_trait
-				robotics_expert_trait
-				eop_cybernetic
-				eop_enclave_survivor
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_wopr.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 10
-			logistics_skill = 10
-			legacy_id = -1
-			}
+
 			
 				create_corps_commander = {
 			name = "Yamato Suzume"
@@ -1428,26 +1423,7 @@ FOX_alister_azimuth = {
 			legacy_id = -1
 			}
 			
-					create_corps_commander = {
-			name = "Central"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
-			}
-			portrait_path = "gfx/leaders/enc_am_central.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1
-			}
+
 			
 					create_corps_commander = {
 			name = "Enterprise"
@@ -1858,20 +1834,5 @@ FOX_alister_azimuth = {
 			defense_skill = 4
 			planning_skill = 7
 			logistics_skill = 6
-			legacy_id = -1
-			}
-			create_corps_commander = {
-			name = "Trigger"
-			traits = {
-				sneering_imperialist_trait
-				eop_brilliant_strategist
-				eop_loyal_american
-			}
-			portrait_path = "gfx/leaders/enc_am_trigger.dds"
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
 			legacy_id = -1
 			}

@@ -204,7 +204,7 @@ leader_traits = {
 			}
 		}
 	}
-	eop_sin_general_of_the_army = {
+	eop_commadant_of_the_marinecorp = {
 		random = no
 		political_power_gain = -0.15
 		stability_factor = -0.05
@@ -235,7 +235,7 @@ leader_traits = {
 		initiative_factor = 0.20
 		attrition = -0.20
 	}
-	eop_sin_general_of_the_air_force = {
+	eop_general_of_the_air_force = {
 		random = no
 		political_power_gain = -0.15
 		stability_factor = -0.05
@@ -253,24 +253,27 @@ leader_traits = {
 		air_escort_efficiency = 0.15
 		air_mission_efficiency = 0.10
 	}
-	eop_sin_of_gluttony = {
+	eop_nuclear_father = {
 		random = no
-		stability_factor = -0.10
-		monthly_population = 0.25
-		weekly_manpower = 10
+		political_power_gain = -0.10
+		command_power_gain = 0.12
+		max_command_power = 150
+		experience_gain_navy_factor = 0.1
+		weekly_manpower = 5
+		naval_equipment_upgrade_xp_cost = -0.15
+		refit_ic_cost = -0.20
+		experience_gain_navy_unit_factor = 0.15
+		naval_coordination = 0.3
+		naval_morale_factor = 0.3
+		navy_org = 25
+		navy_org_factor = 0.25
+		screening_efficiency = 0.2
+		screening_without_screens = 0.1
+		strike_force_movement_org_loss = -0.15
 	}
-	eop_moxxie_mayweather = {
+	eop_wopr = {
 		random = no
 		equipment_bonus = {
-			infantry_equipment =  {
-				instant = yes
-				defense = 0.03
-				breakthrough = 0.10
-				soft_attack = 0.15
-				hard_attack = 0.07
-				ap_attack = 0.10
-				air_attack = 0.12
-			}
 			anti_air_equipment =  {
 				instant = yes
 				defense = 0.03
