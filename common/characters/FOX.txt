@@ -386,8 +386,8 @@ characters = {
 			}
         }
 	}
-	FOX_fleet_admiral_hood = {
-		name = "Fleet Admiral Terrence Hood"
+	ARI_admiral_ricktover = {
+		name = "Admiral Hyman Ricktover"
 		portraits = {
             army = {
                 large = gfx/leaders/FOX_fleet_admiral_hood.dds
@@ -395,7 +395,7 @@ characters = {
             }
         }
 		navy_leader = {
-			desc = FOX_HALO_hood_desc
+			desc = eop_nuclear_father_desc
 			traits = {
 				eop_atlantic_admiral
 				eop_pacific_admiral_1
@@ -409,7 +409,7 @@ characters = {
 				air_controller
 				ironside
 			}
-			skill = 9
+			skill = 7
 			attack_skill = 5
 			defense_skill = 6
 			maneuvering_skill = 5
@@ -418,11 +418,11 @@ characters = {
 		}
 		advisor = {
             slot = navy_chief
-            idea_token = FOX_naval_chief_hood
-			cost = 200
-			desc = FOX_HALO_hood_desc
+            idea_token = ARI_adm_ricktover
+			cost = 100
+			desc = eop_nuclear_father_desc
             traits = {
-				FOX_naval_chief_hood
+				eop_nuclear_father
 			}
         }
 	}

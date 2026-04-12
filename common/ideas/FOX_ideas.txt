@@ -42,25 +42,6 @@ ideas = {
 				max_command_power = -50
 			}
 		}
-				ARI_helgian_remnants = {
-			name = "Helgian Remnants"
-			picture = FOX_mobian_resistance
-			allowed = { always = no	}
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				war_support_factor = 0.10
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.25
-				cas_damage_reduction 0.09
-				initiative_factor = 0.25
-				coordination_bonus = -0.18
-				planning_speed = -0.21
-				political_power_factor = -0.05
-				surrender_limit = 1
-				max_command_power = -50
-			}
-		}
 		ARI_EFSF_remnants = {
 			name = "EFSF Remnants"
 			picture = FOX_UNSC_remnants
@@ -109,7 +90,7 @@ ideas = {
 				max_command_power = 150
 			}
 		}
-				ARI_strangereal_remnants = {
+		ARI_strangereal_remnants = {
 			name = "Strange Real Remnants"
 			picture = FOX_UNSC_remnants
 			allowed = { always = no	}
@@ -219,8 +200,8 @@ ideas = {
 				experience_loss_factor = 0.12
 			}
 		}
-		FOX_hellaverse_remnants = { 
-			name = "Straight From Hell Itself"
+		ARI_helgian_remnants = { 
+			name = "Helgian Remnants"
 			picture = FOX_hellaverse_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }

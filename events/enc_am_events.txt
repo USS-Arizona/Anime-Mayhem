@@ -135,11 +135,22 @@ country_event = { #2 American Heroes
 				ARI_cold_war_remnants
 				ARI_OSS_remnants
 			}
-			add_ace = { #WW II Dude
-				name = "Marcus"
-				surname = "Lampurt"
-				callsign = "Shamrock"
-				type = fighter_genius
+			ARI = {
+				ARI_james_mattis ={
+					set_nationality = ERB 
+				}
+				ARI_henry_arnold ={
+					set_nationality = ERB 
+				}
+				ARI_wopr ={
+					set_nationality = ERB 
+				}
+				ARI_v1 ={
+					set_nationality = ERB 
+				}
+				ARI_fox_mccloud ={
+					set_nationality = ERB 
+				}
 			}
 			load_oob = FOX_WWII_division_remnants
 			add_equipment_to_stockpile = { #Guns
@@ -302,18 +313,6 @@ country_event = { #8 Shipgirls
 				FOX_moxxie ={
 					set_nationality = ERB 
 				}
-			}
-			add_ace = { #Queen Bee 1
-				name = "Queen"
-				surname = "Bee"
-				callsign = "Gluttonous"
-				type = fighter_genius
-			}
-			add_ace = { #Queen Bee 2
-				name = "Sin"
-				surname = "Beezlebub"
-				callsign = "Sweet Honey"
-				type = support_genius
 			}
 			create_corps_commander = {
 			name = "General Loona Hellborn"
