@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		ARI_united_azur_fleets = {
 			name = "United Azur Fleets"
-			picture = FOX_acorn_freedom_fighters
+			picture = ARI_united_azur_fleets
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -25,7 +25,7 @@ ideas = {
 		}
 		ARI_pony_resistance = {
 			name = "The Resistance"
-			picture = FOX_mobian_resistance
+			picture = ARI_pony_resistance
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -44,7 +44,7 @@ ideas = {
 		}
 		ARI_EFSF_remnants = {
 			name = "EFSF Remnants"
-			picture = FOX_UNSC_remnants
+			picture = ARI_efsf_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -92,7 +92,7 @@ ideas = {
 		}
 		ARI_strangereal_remnants = {
 			name = "Strange Real Remnants"
-			picture = FOX_UNSC_remnants
+			picture = ARI_strangereal_remnanats
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -140,7 +140,7 @@ ideas = {
 		}
 		ARI_OSS_remnants = {
 			name = "Office of Strategic Services Remnants"
-			picture = FOX_UNSC_ONI_remnants
+			picture = ARI_OSS_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -227,7 +227,7 @@ ideas = {
 		}
 		ARI_cold_war_remnants = { 
 			name = "American Heroes"
-			picture = FOX_world_war_two_remnants
+			picture = ARI_cold_war_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -246,9 +246,9 @@ ideas = {
 				army_attack_factor = 0.05
 			}
 		}
-		FOX_he_is_the_eggman = { #Requires has_country_flag = FOX_eggman_threat_active
-			name = "Looming Eggman Threat"
-			picture = FOX_he_is_the_eggman
+		ARI_siren_threat = { #Requires has_country_flag = FOX_eggman_threat_active
+			name = "Looming Siren Threat"
+			picture = ARI_siren_threat
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -260,9 +260,9 @@ ideas = {
 				training_time_army_factor = -0.1
 			}
 		}
-		FOX_purist_threat = { #Requires has_country_flag = FOX_purist_threat_active
+		ARI_purist_threat = { #Requires has_country_flag = FOX_purist_threat_active
 			name = "Looming Purist Threat"
-			picture = FOX_purist_threat
+			picture = ARI_purist_threat
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1

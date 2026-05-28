@@ -60,7 +60,7 @@ country_event = { #3 Rings & Plasma Cartridges
 				ARI_v1 ={
 					set_nationality = ERB 
 				}
-				ARI_fox_mccloud ={
+				ARI_snake ={
 					set_nationality = ERB 
 				}
 			}
@@ -98,8 +98,6 @@ country_event = { #3 Rings & Plasma Cartridges
 				category = fallout_air_tech_category
 			}											  			
 			
-			country_event = { id = enc_am.5 days = 365 }
-			country_event = { id = enc_am.2 }	
 			country_event = { id = enc_am.5 days = 365 }
 			country_event = { id = enc_am.2 }
 			country_event = { id = enc_am.8 }
@@ -145,14 +143,14 @@ country_event = { #2 American Heroes
 				ARI_wopr ={
 					set_nationality = ERB 
 				}
-				ARI_v1 ={
+				ARI_admiral_ricktover ={
 					set_nationality = ERB 
 				}
-				ARI_fox_mccloud ={
+				ARI_general_george_marshall ={
 					set_nationality = ERB 
 				}
 			}
-			load_oob = FOX_WWII_division_remnants
+			load_oob = ARI_CW_division_remnants
 			add_equipment_to_stockpile = { #Guns
 				type = ballistic_equipment_2
 				amount = 1950
@@ -163,13 +161,13 @@ country_event = { #2 American Heroes
 				amount = 1952
 				producer = USA
 			}
-			add_equipment_to_stockpile = { #WW2 Fighters
+			add_equipment_to_stockpile = { #Cold War Fighters
 				type = fighter_equipment_3
 				amount = 600
 				producer = USA
 			}
-			add_equipment_to_stockpile = { #Air Rework WW2 Fighters
-				type = fighter_equipment_sad_airman_2
+			add_equipment_to_stockpile = { #Air Rework Cold War Fighters
+				type = fighter_equipment_sad_airman_3
 				amount = 600
 				producer = USA
 			}
@@ -187,9 +185,9 @@ country_event = { #2 American Heroes
 			country_event = { id = enc_am.4 days = 180 }
 			country_event = { id = enc_am.3 days = 82 }
 			country_event = { id = enc_am.6 days = 100 }									  
+			}
 		}
 	}
-}
 }
 
 country_event = { #3 American Grit
@@ -226,6 +224,26 @@ country_event = { #5 Remembering Yamato
 	option = { #Sonic...
 		name = enc_am.5.a
 		custom_effect_tooltip = enc_remembering_yamato_tt
+		
+		hidden_effect = { 
+		ARI = {
+				ARI_james_mattis ={
+					set_nationality = ERB 
+				}
+				ARI_henry_arnold ={
+					set_nationality = ERB 
+				}
+				ARI_wopr ={
+					set_nationality = ERB 
+				}
+				ARI_admiral_ricktover ={
+					set_nationality = ERB 
+				}
+				ARI_general_george_marshall ={
+					set_nationality = ERB 
+				}
+			}
+		}
 	}
 }
 
@@ -289,6 +307,48 @@ country_event = { #7 Mech Warfare?!
 			logistics_skill = 3
 			legacy_id = -1
 			}
+		create_corps_commander {
+			name = "Albert Jacka"
+			traits = {
+				survivalist_trait
+				perceptive_trait
+				expert_improviser
+				skilled_trait
+				commando_trait
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist				
+			}
+			portrait_path = "gfx/leaders/enc_am_albert_jacka.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1			
+		}
+		create_corps_commander {
+			name = "Harding Leaf"
+			traits = {
+				survivalist_trait
+				perceptive_trait
+				expert_improviser
+				skilled_trait
+				commando_trait
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist				
+			}
+			portrait_path = "gfx/leaders/enc_am_harding_leaf.dds"
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1			
+		}
 	}
 }
 
@@ -305,84 +365,14 @@ country_event = { #8 Shipgirls
 		add_manpower = 1776
 		add_manpower = 2030
 		hidden_effect = {
-			add_ideas = FOX_hellaverse_remnants
-			FOX = {
-				FOX_queen_bee_beelzebub ={
+			add_ideas = ARI_united_azur_fleets
+			ARI = {
+				ARI_HMS_hood ={
 					set_nationality = ERB 
 				}
 				FOX_moxxie ={
 					set_nationality = ERB 
 				}
-			}
-			create_corps_commander = {
-			name = "General Loona Hellborn"
-			traits = {
-				eop_war_hero
-				eop_enduring_legacy
-				eop_staunch_defender
-				eop_hell_jumper
-				Stubborn_trait
-				paratrooper
-				eop_enclave_survivor
-				strong_trait
-				pain_train_trait
-				strong_back_trait
-				perceptive_trait
-				awareness_trait
-				sniper_trait
-				night_person_trait
-				enduring_trait
-				animal_friend_trait
-				inspirational_trait
-				gun_nut_trait
-				agile_trait
-				bloody_mess_trait
-				urban_assault_specialist
-				urban_assault_specialist_II
-				fortress_buster
-				air_force_liaison
-				expert_improviser
-				disgruntled
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_loona.dds"
-			skill = 4
-			attack_skill = 6
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 1
-			legacy_id = -1
-			}
-			create_corps_commander = {
-			name = "Brigadier General Vortex Razorback"
-			traits = {
-				eop_war_hero
-				eop_military_legacy
-				eop_brilliant_strategist
-				eop_hell_jumper
-				Stubborn_trait
-				paratrooper
-				eop_enclave_survivor
-				strong_trait
-				pain_train_trait
-				strong_back_trait
-				awareness_trait
-				sniper_trait
-				night_person_trait
-				enduring_trait
-				animal_friend_trait
-				agile_trait
-				bloody_mess_trait
-				exiled_leader
-				eop_scarred
-			}
-			portrait_path = "gfx/leaders/enc_am_vortex.dds"
-			skill = 3
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = -1
 			}
 		}
 	}

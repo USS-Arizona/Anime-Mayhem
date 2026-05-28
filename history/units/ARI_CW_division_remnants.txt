@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "American Cold War Armored Corps Remnants"
+	template_counter = 91
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized_fireteam = { x = 0 y = 1 }
+		motorized_fireteam = { x = 0 y = 2 }
+		tank = { x = 1 y = 0 }
+		tank = { x = 1 y = 1 }
+		tank = { x = 1 y = 2 }
+		tank = { x = 2 y = 0 }
+		tank = { x = 2 y = 1 }
+		tank = { x = 2 y = 2 }
+	}
+	support = {
+		anti_air_support = { x = 0 y = 0 }
+		anti_tank_company = { x = 1 y = 0 }
+		fireteam_support = { x = 2 y = 0 }
+		motorized_recon_company = { x = 3 y = 0 }
+		motorized_maintenance_company = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "American Cold War Infantry Remnants"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		fireteam_infantry = { x = 0 y = 3 }
+		fireteam_infantry = { x = 1 y = 3 }
+		fireteam_infantry = { x = 2 y = 3 }
+	}
+
+	support = {
+		recon_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		motorized_maintenance_company = { x = 0 y = 2 }
+		motorized_recon_company = { x = 0 y = 3 }
+		medical_chem_company = { x = 0 y = 4 }
+		anti_air_support { x = 0 y = 5}
+	}
+}
+
+
+
+units = {
+
+	#Infantry
+	
+	division = {
+		name = "307th 'Clear The Way' Infantry Regiment"
+		location = 8477
+		division_template = "American Cold War Infantry Remnants"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "305th 'Second To None' Infantry Regiment"
+		location = 8477
+		division_template = "American Cold War Infantry Remnants"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "158th 'Bushmasters' Infantry Regiment"
+		location = 8477
+		division_template = "American Cold War Infantry Remnants"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}	
+	
+	#Armored
+	
+	division = {
+		name = "33rd 'Men of War' Armored Regiment"
+		location = 8477
+		division_template = "American Cold War Armored Corps Remnants"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "66th 'Black Knights' Armored Regiment"
+		location = 8477
+		division_template = "American Cold War Armored Corps Remnants"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}	
+}

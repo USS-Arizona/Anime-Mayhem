@@ -426,8 +426,45 @@ characters = {
 			}
         }
 	}
-	FOX_major_general_nicolas_strauss = {
-		name = "Major General Nicolas Strauss"
+	ARI_HMS_hood = {
+		name = "HMS Hood"
+		portraits = {
+            army = {
+                large = gfx/leaders/FOX_fleet_admiral_hood.dds
+				small = gfx/interface/ideas/FOX_fleet_admiral_hood_advisor.dds
+            }
+        }
+		navy_leader = {
+			desc = ARI_hood_desc
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
+			}
+			skill = 7
+			attack_skill = 5
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 8
+			legacy_id = -1
+		}
+		advisor = {
+            slot = high_command
+            idea_token = ARI_al_hood
+			cost = 100
+			desc = ARI_hood_desc
+            traits = {
+				ARI_naval_chief_hood
+			}
+        }
+	}
+	ARI_general_george_marshall = {
+		name = "General George C. Marshall"
 		portraits = {
            army = {
 				small = gfx/interface/ideas/FOX_major_general_nicolas_strauss_advisor.dds
@@ -435,7 +472,7 @@ characters = {
             }
         }
         field_marshal = {
-			desc = eop_UNSC_general_of_the_army_desc
+			desc = eop_general_of_the_army_desc
 			traits = {
 				eop_war_hero
 				perceptive_trait
@@ -469,11 +506,11 @@ characters = {
 		}
 		advisor = {
             slot = army_chief
-            idea_token = UNSC_general_of_the_army
+            idea_token = general_of_the_army
 			cost = 200
-			desc = eop_UNSC_general_of_the_army_desc
+			desc = eop_general_of_the_army_desc
             traits = {
-				FOX_UNSC_general_of_the_army
+				ARI_general_of_the_army
 			}
         }
 	}
@@ -595,8 +632,8 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	FOX_fox_mccloud = {
-		name = "Brigadier General Fox James McCloud"
+	ARI_bubbles = {
+		name = "Bubbles"
 		portraits = {
 			army = {
 				small = gfx/interface/ideas/enc_furry_Advisor_Fox_James_McCloud.dds
@@ -605,91 +642,92 @@ characters = {
         }
 		advisor = {
             slot = air_chief
-            idea_token = FOX_Echo_Five_Fox_One
-			cost = 120
-			desc = eop_Fox_McCloud_desc
+            idea_token = ARI_bubbles
+			cost = 100
+			desc = eop_bubbles_desc
             traits = {
-				eop_Echo_Five_Fox_One
+				eop_bubbles
 			}
         }
 	}
 }
 
-FOX_alister_azimuth = {
-		name = "Template"
+	ARI_template = {
+		name = "template"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_alister_azimuth_advisor.dds
-                large = gfx/leaders/enc_furry_alister_azimuth.dds
+                large = gfx/leaders/FOX_Rtas_Vadum.dds
             }
         }
         corps_commander = {
-			desc = eop_praetorian_general_desc
+			desc = FOX_fleet_master_desc
 			traits = {
-				eop_war_hero
-				strong_trait
-				rooted_trait
-				intelligent_trait
-				agile_trait
+				enduring_trait
 				lucky_trait
-				idiot_savant_trait
-				nimble_leader_trait
-				ferocious_loyalty_trait
-				sneering_imperialist_trait
-				Stubborn_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				survivalist_trait
+				agile_trait
 				urban_assault_specialist
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
 				exiled_leader
 				eop_military_legacy
-				exiled_leader
-				hidden_sympathies
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
 			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
 			legacy_id = -1
 		}
-		advisor = {
-            slot = army_chief
-            idea_token = alister_lombax
-			cost = 140
-			desc = eop_praetorian_general_desc
-            traits = {
-				eop_praetorian_general
-			}
-        }
 	}
 
-
-
-			
-			create_field_marshal = {
-			name = "Colonel Aronimus Stone"
+	ARI_snake = {
+		name = "Big Boss"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_big_boss.dds
+            }
+        }
+        field_marshal = {
 			traits = {
 				perceptive_trait
 				awareness_trait
 				survivalist_trait
 				agile_trait
-				observant_leader_trait
-				nimble_leader_trait
-				smooth_talker_trait
-				exiled_leader
-				enduring_trait
+				rooted_trait
+				ninja_trait
 				eop_war_hero
 				eop_military_legacy
 				eop_enclave_survivor
+				exiled_leader
 			}
-			portrait_path = "gfx/leaders/enc_am_aronimus_stone.dds"
-			skill = 10
-			attack_skill = 8
-			defense_skill = 7
-			planning_skill = 9
-			logistics_skill = 8
+			skill = 8
+			attack_skill = 6
+			defense_skill = 8
+			planning_skill = 5
+			logistics_skill = 6
 			legacy_id = -1
-			}
-			create_corps_commander = {
-			name = "Captain Susumu Kodai"
+		}
+	}	
+
+	ARI_susumu_kodai = {
+		name = "Captain Susumu Kodai"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_susumu_kodai.dds
+            }
+        }
+        corps_commander = {
 			traits = {
 				survivalist_trait
 				charismatic_trait
@@ -704,14 +742,53 @@ FOX_alister_azimuth = {
 				eop_enclave_survivor
 				exiled_leader
 			}
-			portrait_path = "gfx/leaders/enc_am_susumu_kodai.dds"
 			skill = 5
 			attack_skill = 7
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 5
 			legacy_id = -1
+		}
+	}	
+	
+	ARI_al_template_hood = {
+		name = "AL Template"
+		portraits = {
+            army = {
+                large = gfx/leaders/FOX_fleet_admiral_hood.dds
+				small = gfx/interface/ideas/FOX_fleet_admiral_hood_advisor.dds
+            }
+        }
+		navy_leader = {
+			desc = ARI_hood_desc
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
+			skill = 7
+			attack_skill = 5
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 8
+			legacy_id = -1
+		}
+		advisor = {
+            slot = high_command
+            idea_token = ARI_al_hood
+			cost = 100
+			desc = ARI_hood_desc
+            traits = {
+				ARI_naval_chief_hood
+			}
+        }
+	}
+
 			create_corps_commander = {
 			name = "Doom Slayer"
 			traits = {
@@ -732,28 +809,7 @@ FOX_alister_azimuth = {
 			logistics_skill = 9
 			legacy_id = -1
 			}
-			create_corps_commander = {
-			name = "Big Boss"
-			traits = {
-				perceptive_trait
-				awareness_trait
-				survivalist_trait
-				agile_trait
-				rooted_trait
-				ninja_trait
-				eop_war_hero
-				eop_military_legacy
-				eop_enclave_survivor
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_big_boss.dds"
-			skill = 8
-			attack_skill = 6
-			defense_skill = 8
-			planning_skill = 5
-			logistics_skill = 6
-			legacy_id = -1
-			}
+
 			create_field_marshal = {
 			name = "Dio"
 			traits = {

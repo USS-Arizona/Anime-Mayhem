@@ -311,7 +311,7 @@ leader_traits = {
 			}
 		}
 	}
-	FOX_naval_chief_hood = {
+	ARI_naval_chief_hood = {
 		random = no
 		political_power_gain = -0.10
 		stability_factor = 0.10
@@ -333,7 +333,7 @@ leader_traits = {
 		screening_without_screens = 0.1
 		strike_force_movement_org_loss = -0.15
 	}
-	FOX_UNSC_general_of_the_army = {
+	ARI_general_of_the_army = {
 		random = no
 		political_power_gain = -0.15
 		stability_factor = 0.10
@@ -367,14 +367,15 @@ leader_traits = {
 		experience_gain_army_unit_factor = 0.05
 		initiative_factor = 0.09
 	}
-	eop_Echo_Five_Fox_One = {
+	eop_bubbles = {
 		random = no
 		max_command_power = 25
-		coordination_bonus = 0.04
-		ace_effectiveness_factor = 0.08
-		air_ace_generation_chance_factor = 0.07
+		coordination_bonus = 0.10
+		ace_effectiveness_factor = 0.15
+		air_ace_generation_chance_factor = 0.10
 		air_escort_efficiency = 0.15
-		air_mission_efficiency = 0.05
+		air_mission_efficiency = 0.10
 		air_mission_xp_gain_factor = 0.2
+		research_speed_factor = 0.10
 	}
 }

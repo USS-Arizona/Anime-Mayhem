@@ -76,6 +76,19 @@ enc_am.12.d: "Ever since we arrived at the depot, we’ve had to be careful not 
 enc_am.12.a: "Guess being accepting has its perks..."
 enc_FOX_huh_good_for_something_after_all_tt: "'Please keep the Yakuza away from both of First Fleet Carriers, they will begin worshipping them.'"
 
+#Type's Orginal Stuff
+
+enc_am.13.t: "A Steel Tea Party"
+enc_am.13.d: "After following General Arnold’s expedition to the multiverse, we shipgirls have been unfamiliar with land combat, even losing some of our own during the travels to our sorrow. However after we finally made it to the right universe where the purists can't reach us we have settled down in the bustling shanty town of Harlong and the SAD we have decided to gather all the leaders from both the “Azur Lane” universe and the “Kantai Collection” universe, to have a tea party and discuss what we can do to help the rebuilding United States."
+enc_am.13.a: "How do they have tea readily available?!"
+enc_ARI_steel_tea_tt: "I wonder how their ships work?"
+
+enc_am.14.t: "The Great Discussion"
+enc_am.14.d: "KC Hornet: So what are we going to do here, we have no place to dock, most of our ammo is gone, and we don’t have our shikkan to guide us.\n\n AL Yorktown: This President Granite seems interested in helping us repair in exchange for our services to the United States though he is a very busy person dealing with organizing the depot. I think helping him would benefit us tremendously.\n\n AL Bismark: That is all well and good Yorktown but what would call this group because it is not just Azur Lane here but those from the other universe?\n\n KC Yamato: I would say that we should call ourselves the “Shipgirl Confederation” what are you thoughts sister?\n\n KC Mushashi: How about the “United Azure Fleet”? I think that would fit the best due to its symbolism.\n\n AL QE: It is decided then the “United Azure Fleet” shall assist the United States on its mission to rebuild.\n\n Everyone: Very well then, let us get to work as best we can."
+enc_am.14.a: "This will be interesting to watch."
+
+
+
 #Ideas
 
 ARI_united_azur_fleets_desc: "Remnants of both Azur Lane and the Ship girls Fleets from the Abyssal Universe, have sworn an oath to the stars and stripes, all to aid in dismantling the Purists and defeating them once and for all when they come for us."
@@ -87,7 +100,7 @@ ARI_wisdom_cube_program_desc: "An intermediate success, the Wisdom Cube program 
 ARI_helgian_remnants_desc: "Made up of remnants from Helghan, they have sworn an oath to the American cause to take down the Purists. What's more, the leader who survived the Purists without capture or execution, Colonel, now General, Radec has managed to contact the expedition and join them, to eventually get rid of the Purist and the United Colonial Nations control of the Capital of the Helghian Empire."
 ARI_cold_war_remnants_desc: "Made up of the best and brightest Americans that stayed in service after the Second World War, the remnants have sworn an oath to the stars and stripes to take back their own country from tyranny."
 ARI_strangereal_remnants_desc:"The remnants of many different nations across their version of Earth, they have brought along some saved data on AI and Futuristic Aircraft blueprints. They are willing to help us be prepared for the coming Purist threat."
-FOX_he_is_the_eggman_desc: "The threat of Eggman looms over the West and so we must prepare."
+ARI_siren_threat_desc: "The threat of the Sirens looms over the West and so we must prepare."
 FOX_purist_threat_desc: "The threat of the Purists looms over the West and so we must prepare."
 
 #Weeb Traits
@@ -106,10 +119,10 @@ eop_v1_research_advisor: "Intelligent Super War Machine"
 eop_v1_desc: "Hailing from warbound Earth, V1 was built for war but made obsolete due to the New Peace. Aged only 'unknown', V1 as he prefers to be called, compared to the other people he had to deal from where he comes from. With expertise in robotics and war, he is extremely versed in the arts of war in part due to the fighting demons, angels, and the Purists invading his home dimension and so many others. He has sworn loyalty to the United States cause, seeing it as the only means, for the moment, to gain revenge on the Purists and Segregationists."
 
 eop_commadant_of_the_marinecorp: "Marine Corps Commadant"
-eop_commadant_of_the_marinecorp_desc: "Hailing from Pullman Washington, General James Mattis was the person in charge of America's Armies during the Iraq War before retiring and presuing a path in politics and civilian contracting, while the rest of the States carried on. Having had experience leading an Army and stepping up during the rebelion against the Purists, General Mattis has pledged himself to our American cause to beat down the so called 'Purists' once and for all, and was promoted Commadant of the reestablished Marine Corps."
+eop_commadant_of_the_marinecorp_desc: "Hailing from Pullman, Washington; General James Mattis was the person in charge of America's Armies during the Iraq War before retiring and presuing a path in politics and civilian contracting, while the rest of the States carried on. Having had experience leading an Army and stepping up during the rebelion against the Purists, General Mattis has pledged himself to our American cause to beat down the so called 'Purists' once and for all, and was promoted Commadant of the reestablished Marine Corps."
 
 eop_general_of_the_air_force: "Reformer of the Air"
-eop_general_of_the_air_force_desc: "Hailing from Gladwyne Pennsylvania, Henry 'Hap' Arnold was a 5 star General of the USAF and was the person in charge of the US' Air Force before his US' contact with Purist's and him stepping down due to learning the true ethos of the Purists and not wanting his knowledge and skill being used the wrong way. Having had experience rebuilding and improving an Air Force from scratch and knowing how the Purists operate, General Arnold has rejoined the American cause if only to beat down the so called 'Purists' once and for all."
+eop_general_of_the_air_force_desc: "Hailing from Gladwyne, Pennsylvania; Henry 'Hap' Arnold was a 5 star General of the USAF and was the person in charge of the US' Air Force before his US' contact with Purist's and him stepping down due to learning the true ethos of the Purists and not wanting his knowledge and skill being used the wrong way. Having had experience rebuilding and improving an Air Force from scratch and knowing how the Purists operate, General Arnold has rejoined the American cause if only to beat down the so called 'Purists' once and for all."
 
 eop_nuclear_father: "Father of the Nuclear Navy"
 eop_nuclear_father_desc: "Hailing from Maków Mazowiecki, Poland, Admiral Ricktover is the Father of the United States' Nuclear Navy and was widely known as a major bureucratic nightmare for Naval Personel and a vocalist for nuclear propulision, however contact with the purist's slowed the program down due to the advanced tech of the Purists. However after joining up with Gen. Arnold's expedition the ability to put nuclear powered vessals was vastly expanded, due to them having a use of disrupting Purist shipping routes. Although he may be more aprehenive to our government compared to his peers, he will still apply his knowledge of nuclear navy propulsion and submarine tactics. Just don't ask where he has his nuclear powered submarines positioned..."
@@ -117,11 +130,11 @@ eop_nuclear_father_desc: "Hailing from Maków Mazowiecki, Poland, Admiral Rickto
 eop_wopr: "Planning Expert"
 eop_wopr_desc: "Hailing from the depths of the Cheyenne Mountain Complex from Universe WG1983, War Operation Plan Responce was once the planning computer of the United States Strategic Air Command who were the main line of defense against missile threats to the US. Of note though, WOPR did cause a nuclear scare for US High Command due to challenging a kid to a game of thermonuclear war resulting in the base's lockdown. Although WOPR's orginal Cheyenne Mountain Complex is gone, WOPR seeks to maintain the legacy of its knowledge and strategic capability."
 
-FOX_naval_chief_hood: "Chief of Naval Operations"
-FOX_HALO_hood_desc: "Lord Terrence Benjamin Hood(service number 07960-48392-TH) is a Fleet Admiral and the highest ranking flag officer of the UNSC Navy: the Chief of Naval Operations. In this capacity, he served as the defacto leader of humanity's war effort during the later years of the Human-Covenant War in 2552. Fleet Admiral Hood has since continued to serve as the Chairman of the UNSC Security Council, the leading commission within the UNSC High Command, making him the leader of the UNSC remnants."
+ARI_naval_chief_hood: "Head of Royal Navy Operations"
+ARI_hood_desc: "HMS Hood is the second in command and the second ranking Royal Navy shipgirl in the Royal Navy, giving her the role of Head of Royal Navy Operations. In this capacity, she served as the leader of the Royal Navy's war effort during the later years of the Human-Siren War in 1948. HMS Hood has since continued to serve as the Vice Commander of the Azur Lane Security Council, the leading commission within the Azur Lane Command, making her the leader of the Shipgirl remenants."
 
-FOX_UNSC_general_of_the_army: "UNSC General of the Earth Armies"
-eop_UNSC_general_of_the_army_desc: "Major General Nicolas Strauss was a two-star general of the UNSC Army and a member of the UNSC Security Council prior to jumping to our Earth, in charge of Earth's defense and the Solona System as a whole. Strauss was in charge of the entirity of Earth's defenses on the ground and the surrounding planets of Mars, the Moon, and numerous others. Now here, he will help bolster America's forces for what is to come using knowledge centuries ahead of our own."
+ARI_general_of_the_army: "General of the Army"
+eop_general_of_the_army_desc: "Hailing from Uniontown, Pennsylvania; George C. Mar was a 4 star General of the US Army and was the person in charge of the US' Army before his US' contact with Purist's and him stepping due to getting tired of the Purists and not wanting all his hard work being undone and used the wrong way. Having had experience improving a Army and knowing how the Purists operate, General Marshall has rejoined the American cause if only to beat down the so called 'Purists' once and for all."
 
 FOX_UNSC_special_warfare_officer: "Chief of Special Warfare Operations"
 FOX_holland_desc: "Colonel Urban Holland, also known as 'Noble Actual', was a human field grade officer of the UNSC Army who served during the Human-Covenant War. He was the commanding officer of Special Warfare Group Three and had operational control of NOBLE Team during the Fall of Reach. Now on our Earth, he has pledged to aid the Enclave in defeating the Purists and any other threat that may come our way."
@@ -130,8 +143,5 @@ FOX_arbiter_desc: "Arbiter Thel 'Vadam (formerly 'Vadamee) is the Sangheili kaid
 
 FOX_fleet_master_desc: "Rtas 'Vadum (formerly 'Vadumee), nicknamed the Half-Jaw following the loss of two of his mandibles, is an influential Sangheili commander and a high-ranking official in the Swords of Sanghelios. Rtas has become a hero among Sangheili for his bravery and leadership during the Great Schism. He was responsible for negotiating the alliance between the Fleet of Retribution and the United Nations Space Command and now the alliance with the Enclave in conjunction with Fleet Admiral Hood and Field Marshal Amadeus."
 
-eop_Echo_Five_Fox_One: "Ace Pilot Genius"
-
-#The following below are Descriptions from Fandom Wikis, I take NO credit for this section of the Localization other than some cleanup here or there.
-
-eop_Fox_McCloud_desc: "Fox James McCloud is referred to by the name of Star Fox, especially by his many enemies. He is an expert Arwing pilot, combatant, adventurer, and the leader of the Star Fox team. Fox is the only son of James McCloud, who educated him throughout his childhood to never give up, with a keen interest from James's best friend Peppy Hare. Thrust into the leadership role as leader of Star Fox, Fox recruited the hot-tempered Falco Lombardi and the mechanical genius Slippy Toad to make up the new Star Fox Team. For a price, this crack group fought against any threat to the Cornerian star system prior to the Purists arrival which ignited what was known as the First Cornerian Galactic Great War."
+eop_bubbles: "Space Amoeba Mother"
+eop_bubbles_desc: "Bubbles is a Space Amoeba Mother, she is an expert combatant, decent scientist, and leader of a fleet consisting of her children and surviving star ships. Bubbles was found by a scientist when surveying a gas giant, who took her in and then educated her the years before their retirement in their universe's 2350, she was taught basic science, space combat; with these skills she gained experience and popularity throughout her nations people. However when the Purists arrived they were tasked with learning the Amoeba's secrets and attempted to hunt her down, however she was able to escape with her 'mother' to this universe before the purists glassed her nation's capital planet."
