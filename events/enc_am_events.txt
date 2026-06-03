@@ -35,16 +35,16 @@ country_event = { #3 Rings & Plasma Cartridges
 				callsign = "Trigger"
 				type = fighter_genius
 			}
-			add_ace = { #Cannon Tails
-				name = "Miles"
-				surname = "Prower"
-				callsign = "Tails"
-				type = support_genius
+			add_ace = { #F-2
+				name = "F"
+				surname = "2"
+				callsign = "Viper Zero"
+				type = fighter_genius
 			}
-			add_ace = { #Movie Tails
-				name = "Tails"
-				surname = "Prower"
-				callsign = "TORNADO"
+			add_ace = { #F-22
+				name = "F"
+				surname = "22"
+				callsign = "Raptor"
 				type = fighter_genius
 			}
 			ARI = {
