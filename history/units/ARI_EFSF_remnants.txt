@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "EFSF Army"
+	template_counter = 147
+	regiments = {
+		tank = { x = 0 y = 0 }
+		tank = { x = 0 y = 1 }
+		tank = { x = 0 y = 2 }
+		tank = { x = 1 y = 0 }
+		tank = { x = 1 y = 1 }
+		tank = { x = 1 y = 2 }
+		motorized_fireteam = { x = 2 y = 0 }
+		motorized_fireteam = { x = 2 y = 1 }
+	}
+	support = {
+		anti_air_support = { x = 0 y = 0 }
+		anti_tank_company = { x = 1 y = 0 }
+		fireteam_support = { x = 2 y = 0 }
+		motorized_recon_company = { x = 3 y = 0 }
+		motorized_maintenance_company = { x = 4 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "3rd Infantry Regiment"
+		location = 8477
+		division_template = "EFSF Army"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "55th Infantry Regiment"
+		location = 8477
+		division_template = "EFSF Army"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "648th Infantry Regiment"
+		location = 8477
+		division_template = "EFSF Army"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "246th Infantry Regiment"
+		location = 8477
+		division_template = "EFSF Army"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "341st Infantry Regiment"
+		location = 8477
+		division_template = "EFSF Army"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+}

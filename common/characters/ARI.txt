@@ -6,8 +6,8 @@ characters = {
 		name = "Major Eddie Foxtrot"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_alister_azimuth_advisor.dds
-                large = gfx/leaders/enc_furry_alister_azimuth.dds
+				small = gfx/interface/ideas/enc_am_eddie_foxtrot.dds
+                large = gfx/leaders/enc_am_eddie_foxtrot.dds
             }
         }
         corps_commander = {
@@ -106,15 +106,14 @@ characters = {
 		}
 	}	
 
-
 # Ace Combat
 
 	ARI_three_strikes = {
 		name = "Three 'Trigger' Strikes"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_miles_tails_prower_advisor.dds
-                large = gfx/leaders/enc_furry_specialist_tails.dds
+				small = gfx/interface/ideas/enc_am_trigger.dds
+                large = gfx/leaders/enc_am_trigger.dds
             }
         }
         corps_commander = {
@@ -152,15 +151,14 @@ characters = {
         }
 	}
 
-
 #Real Commanders
 
 	ARI_james_mattis = {
 		name = "Commadant James Mattis"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_furry_beelzebub_advisor.dds
-                large = gfx/leaders/enc_furry_beelzebub.dds
+				small = gfx/interface/ideas/enc_am_james_mattis.dds
+                large = gfx/leaders/enc_am_james_mattis.dds
             }
         }
         field_marshal = {
@@ -229,8 +227,8 @@ characters = {
 		name = "General Henry 'Hap' Arnold"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_furry_beelzebub_advisor.dds
-                large = gfx/leaders/enc_furry_beelzebub.dds
+				small = gfx/interface/ideas/enc_am_henry_h_arnold.dds
+                large = gfx/leaders/enc_am_henry_h_arnold.dds
             }
         }
         field_marshal = {
@@ -281,12 +279,13 @@ characters = {
 			}
         }
 	}
+
 	ARI_admiral_ricktover = {
 		name = "Admiral Hyman Ricktover"
 		portraits = {
-            army = {
-                large = gfx/leaders/FOX_fleet_admiral_hood.dds
-				small = gfx/interface/ideas/FOX_fleet_admiral_hood_advisor.dds
+            navy = {
+                large = gfx/leaders/enc_am_admiral_ricktover.dds
+				small = gfx/interface/ideas/enc_am_admiral_ricktover.dds
             }
         }
 		navy_leader = {
@@ -326,8 +325,8 @@ characters = {
 		name = "General George C. Marshall"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/FOX_major_general_nicolas_strauss_advisor.dds
-                large = gfx/leaders/FOX_major_general_nicolas_strauss.dds
+				small = gfx/interface/ideas/enc_am_george_marshall.dds
+                large = gfx/leaders/enc_am_george_marshall.dds
             }
         }
         field_marshal = {
@@ -374,7 +373,7 @@ characters = {
         }
 	}
 
-	ARI_general_george_marshall = {
+	ARI_george_washington = {
 		name = "President George Washington"
 		portraits = {
            army = {
@@ -407,7 +406,7 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	
+
 	ARI_general_john_pershing = {
 		name = "General John Pershing"
 		portraits = {
@@ -450,14 +449,437 @@ characters = {
         }
 	}
 
+	ARI_chesty_puller = {
+		name = "Chesty Puller"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_chesty_puller.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				survivalist_trait
+				agile_trait
+				urban_assault_specialist
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_smedly_bulter = {
+		name = "Smedley Bulter"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_smedley_butler.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				survivalist_trait
+				agile_trait
+				urban_assault_specialist
+				naval_liason
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_elmo_zumwalt = {
+		name = "Elmo Zumwalt"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_elmo_zumwalt.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_john_mccain_sr = {
+		name = "John McCain Sr."
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_john_mccain_sr.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_arleigh_burke = {
+		name = "Arleigh Burke"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_arleigh_burke.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_forrest_sherman = {
+		name = "Forrest Sherman"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_forrest_sherman.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_albert_jacka = {
+		name = "Albert Jacka"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_albert_jacka.dds
+            }
+        }
+       corps_commander = {
+			traits = {
+				survivalist_trait
+				perceptive_trait
+				expert_improviser
+				skilled_trait
+				commando_trait
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARI_harding_leaf = {
+		name = "Harding Leaf"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_harding_leaf.dds
+            }
+        }
+       corps_commander = {
+			traits = {
+				survivalist_trait
+				perceptive_trait
+				expert_improviser
+				skilled_trait
+				commando_trait
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARI_willis_lee = {
+		name = "Willis 'Ching' Lee"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_willis_lee.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}	
+
+	ARI_carl_spaatz = {
+		name = "General Carl Spaatz"
+		portraits = {
+			army = {
+				small = gfx/interface/ideas/enc_am_carl_spaatz.dds
+                large = gfx/leaders/enc_am_carl_spaatz.dds
+            }
+        }
+        field_marshal = {
+			traits = {
+				eop_war_hero
+				eop_enduring_legacy
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_wise_and_confusing
+				Stubborn_trait
+				eop_enclave_survivor
+				enduring_trait
+				charismatic_trait
+				loved_leader_trait
+				cunning_leader_trait
+				nimble_leader_trait
+				negotiator_trait
+				ferocious_loyalty_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+				advisor = {
+            slot = air_chief
+            idea_token = ARI_Marshal_spaatz
+			cost = 150
+            traits = {
+				eop_general_of_the_air_force
+			}
+			available = {
+				NOT = {
+					has_idea = ARI_General_Spaatz
+				}
+			}
+        }
+	}
+
+	ARI_ernest_king = {
+		name = "Ernest J. King"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_ernest_king.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_william_halsey = {
+		name = "William Halsey"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_william_halsey.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_raymond_spruance = {
+		name = "Raymond Spruance"
+		portraits = {
+           navy = {
+                large = gfx/leaders/enc_am_raymond_spruance.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_river_admiral
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				Stubborn_trait
+				fleet_protector
+				superior_tactician
+				air_controller
+				ironside
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
 #Azur Lane & Kantai Collection
 	# Azur Lane
-		ARI_HMS_hood = {
+	ARI_hms_hood = {
 		name = "HMS Hood"
 		portraits = {
             army = {
-                large = gfx/leaders/FOX_fleet_admiral_hood.dds
-				small = gfx/interface/ideas/FOX_fleet_admiral_hood_advisor.dds
+                large = gfx/leaders/enc_am_al_hms_hood.dds
+				small = gfx/interface/ideas/enc_am_al_hms_hood.dds
             }
         }
 		navy_leader = {
@@ -490,349 +912,494 @@ characters = {
         }
 	}
 
-					create_corps_commander = {
-			name = "Enterprise"
+	ARI_al_uss_enterprise = {
+		name = "USS Enterprise"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_enterprise.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_uss_enty.dds"
 			skill = 4
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "New Jersey"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			}
-			portrait_path = "gfx/leaders/enc_am_uss_new_jersey.dds"
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Tirpitz"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			}
-			portrait_path = "gfx/leaders/enc_am_kms_tirpitz.dds"
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Bismark"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			}
-			portrait_path = "gfx/leaders/enc_am_kms_bismark.dds"
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-			}
+		}
+	}
 
+	ARI_al_uss_new_jersey = {
+		name = "USS New Jersey"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_new_jersey.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 
-			
-					create_corps_commander = {
-			name = "Mikasa"
+	ARI_al_kms_tirpitz = {
+		name = "KMS Tirpitz"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_kms_tirpitz.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_ijn_mikasa.dds"
 			skill = 4
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Yorktown"
+		}
+	}
+
+	ARI_al_kms_bismark = {
+		name = "KMS Bismark"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_kms_bismark.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_uss_yorktown.dds"
 			skill = 4
-			attack_skill = 2
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Arizona"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
-			}
-			portrait_path = "gfx/leaders/enc_am_uss_arizona.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Pennsylvania"
+		}
+	}
+
+	ARI_al_ijn_mikasa = {
+		name = "IJN Mikasa"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_ijn_mikasa.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_uss_pennsylvania.dds"
 			skill = 6
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Kaga"
+		}
+	}
+
+	ARI_al_uss_yorktown = {
+		name = "USS Yorktown"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_yorktown.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_al_ijn_kaga.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Akagi"
+		}
+	}
+
+	ARI_al_uss_hornet = {
+		name = "USS Hornet"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_hornet.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_al_ijn_akagi.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-			
-					create_corps_commander = {
-			name = "Takao"
+		}
+	}
+	
+	ARI_al_uss_arizona = {
+		name = "USS Arizona"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_arizona.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_ijn_Takao.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Atago"
+		}
+	}
+
+	ARI_al_uss_pennsylvania = {
+		name = "USS Pennsylvania"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_uss_pennsylvania.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_ijn_atago.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+
+	ARI_al_ijn_kaga = {
+		name = "IJN Kaga"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_ijn_kaga.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	
+	ARI_al_ijn_akagi = {
+		name = "IJN Akagi"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_ijn_akagi.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	
+	ARI_al_ijn_takao = {
+		name = "IJN Takao"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_ijn_takao.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}			
+
+	ARI_al_ijn_atago = {
+		name = "IJN Atago"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_al_ijn_atago.dds
+            }
+        }
+		navy_leader = {
+			traits = {
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 
 	# Kantai Collection
 
-					create_corps_commander = {
-			name = "Akagi"
+	ARI_kc_ijn_akagi = {
+		name = "Akagi"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_kc_ijn_akagi.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_kc_ijn_akagi.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
-
-					create_corps_commander = {
-			name = "Kaga"
+		}
+	}	
+	
+	ARI_kc_ijn_kaga = {
+		name = "Kaga"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_kc_ijn_kaga.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_kc_ijn_kaga.dds"
-			skill = 6
+			skill = 4
 			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = -1
-			}
+		}
+	}	
 
-					create_corps_commander = {
-			name = "Musashi"
+	ARI_kc_ijn_musashi = {
+		name = "Musashi"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_kc_ijn_musashi.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_kc_ijn_musashi.dds"
 			skill = 4
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id = -1
-			}
+		}
+	}	
 
-					create_corps_commander = {
-			name = "Hornet"
+	ARI_kc_uss_hornet = {
+		name = "Hornet"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_kc_uss_hornet.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_uss_hornet.dds"
 			skill = 4
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Iowa"
+		}
+	}
+
+	ARI_kc_uss_iowa = {
+		name = "Iowa"
+		portraits = {
+            army = {
+                large = gfx/leaders/enc_am_kc_uss_iowa.dds
+            }
+        }
+		navy_leader = {
 			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
+				eop_atlantic_admiral
+				eop_pacific_admiral_1
+				eop_war_hero
+				eop_brilliant_strategist
+				eop_staunch_defender
+				fleet_protector
+				superior_tactician
+				ironside
 			}
-			portrait_path = "gfx/leaders/enc_am_uss_iowa.dds"
 			skill = 4
-			attack_skill = 3
+			attack_skill = 5
 			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id = -1
-			}
+		}
+	}				
+
 # Metal Gear
 
 	ARI_snake = {
@@ -959,8 +1526,7 @@ characters = {
 		name = "Bubbles"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_furry_Advisor_Fox_James_McCloud.dds
-                large = gfx/leaders/enc_furry_Fox_James_McCloud.dds
+				small = gfx/interface/ideas/enc_am_advisior_bubbles.dds
             }
         }
 		advisor = {
@@ -974,36 +1540,9 @@ characters = {
         }
 	}
 
-#JJBA
-
-	ARI_dio = {
-		name = "Dio"
-		portraits = {
-           army = {
-                large = gfx/leaders/enc_am_dio.dds
-            }
-        }
-        corps_commander = {
-			traits = {
-				enduring_trait
-				agile_trait
-				nimble_leader_trait
-				eop_war_hero
-				eop_enclave_survivor
-				exiled_leader
-			}
-			skill = 6
-			attack_skill = 7
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = -1
-		}
-	}
-
 #Gundam
 
-	ARI_sdv-04 = {
+	ARI_sdv_04 = {
 		name = "SDV-04"
 		portraits = {
            army = {
@@ -1134,7 +1673,7 @@ characters = {
 		portraits = {
            army = {
 				small = gfx/interface/ideas/enc_furry_miles_nine_tails_prower_advisor.dds
-                large = gfx/leaders/enc_furry_specialist_nine_tails.dds
+                large = gfx/leaders/enc_am_v1.dds
             }
         }
         corps_commander = {
@@ -1207,7 +1746,7 @@ characters = {
 		portraits = {
            army = {
 				small = gfx/interface/ideas/enc_furry_amadeus_prower_advisor.dds
-                large = gfx/leaders/enc_furry_amadeus_prower.dds
+                large = gfx/leaders/enc_am_general_brasch.dds
             }
         }
         field_marshal = {
@@ -1261,7 +1800,7 @@ characters = {
 		portraits = {
            army = {
 				small = gfx/interface/ideas/enc_furry_specialist_moxxie_advisor.dds
-                large = gfx/leaders/enc_furry_specialist_moxxie.dds
+                large = gfx/leaders/enc_am_wopr.dds
             }
         }
         corps_commander = {
@@ -1422,7 +1961,8 @@ characters = {
 			logistics_skill = 3
 			legacy_id = -1
 		}
-	}		
+	}	
+	
 	ARI_freddy_fazbear = {
 		name = "Freddy Fazbear On A Huey"
 		portraits = {
@@ -1478,51 +2018,43 @@ characters = {
 		}
 	}	
 
-# MISC
+	ARI_central = {
+		name = "Central"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_central.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				survivalist_trait
+				perceptive_trait
+				expert_improviser
+				skilled_trait
+				commando_trait
+				enduring_trait
+				eop_war_hero
+				eop_military_legacy
+				eop_brilliant_strategist
+				eop_loyal_american
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 
-					create_corps_commander = {
-			name = "Colonel Cobar"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
-			}
-			portrait_path = "gfx/leaders/enc_am_colonel_cobar.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1
-			}
-			
-					create_corps_commander = {
-			name = "Colonel Radec"
-			traits = {
-			survivalist_trait
-			perceptive_trait
-			expert_improviser
-			skilled_trait
-			commando_trait
-			enduring_trait
-			eop_war_hero
-			eop_military_legacy
-			}
-			portrait_path = "gfx/leaders/enc_am_colonel_radec.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1
-			}
-					create_corps_commander = {
-			name = "Sephiroth"
+	ARI_sephiroth = {
+		name = "Sephiroth"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_sephiroth.dds
+            }
+        }
+        corps_commander = {
 			traits = {
 			survivalist_trait
 			perceptive_trait
@@ -1530,15 +2062,177 @@ characters = {
 			enduring_trait
 			eop_war_hero
 			}
-			portrait_path = "gfx/leaders/enc_am_sephiroth.dds"
 			skill = 6
 			attack_skill = 8
 			defense_skill = 8
 			planning_skill = 6
 			logistics_skill = 5
 			legacy_id = -1
-			}
+		}
+	}
 
+	ARI_george_hammond = {
+		name = "George Hammond"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_george_hammond.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_major_strickland = {
+		name = "Major Clarence Strickland"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_clarence_strickland.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	ARI_dio = {
+		name = "Dio"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_dio.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				agile_trait
+				nimble_leader_trait
+				eop_war_hero
+				eop_enclave_survivor
+				exiled_leader
+			}
+			skill = 6
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+# MISC
+
+	ARI_colonel_radec = {
+		name = "Colonel Radec"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_colonel_radec.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	ARI_colonel_cobar = {
+		name = "Colonel Cobar"
+		portraits = {
+           army = {
+                large = gfx/leaders/enc_am_colonel_cobar.dds
+            }
+        }
+        corps_commander = {
+			traits = {
+				enduring_trait
+				lucky_trait
+				perceptive_trait
+				strong_trait
+				intelligent_trait
+				air_force_liaison
+				expert_improviser
+				logistics_wizard
+				exiled_leader
+				eop_military_legacy
+				eop_war_hero
+				Stubborn_trait
+				flexible_trait
+				negotiator_trait
+				smooth_talker_trait
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 
 # 家族
 
@@ -1573,6 +2267,8 @@ characters = {
 	}
 
 }
+
+
 # Templates
 	ARI_main_template = {
 		name = "Main template"

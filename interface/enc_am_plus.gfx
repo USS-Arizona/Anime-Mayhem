@@ -45,67 +45,76 @@ spriteTypes = {
 	
 #Ideas
 
-	spriteType = { #Acorn Kingdom Remnants
-		name = "GFX_idea_FOX_acorn_freedom_fighters"
-		texturefile = "gfx/interface/ideas/FOX_acorn_freedom_fighters.dds"
+	spriteType = {
+		name = "GFX_idea_ARI_pony_resistance"
+		texturefile = "gfx/interface/ideas/ARI_pony_resistance.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_mobian_resistance"
-		texturefile = "gfx/interface/ideas/FOX_mobian_resistance.dds"
+		name = "GFX_idea_ARI_united_azur_fleets"
+		texturefile = "gfx/interface/ideas/ARI_united_azur_fleets.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_UNSC_remnants"
-		texturefile = "gfx/interface/ideas/FOX_UNSC_remnants.dds"
+		name = "GFX_idea_ARI_EFSF_remnanats"
+		texturefile = "gfx/interface/ideas/ARI_EFSF_remnanats.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_UNSC_ONI_remnants"
-		texturefile = "gfx/interface/ideas/FOX_UNSC_ONI_remnants.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_PLACEHOLDER"
-		texturefile = "gfx/interface/ideas/PLACEHOLDER.dds"
+		name = "GFX_idea_ARI_strangereal_remnanats"
+		texturefile = "gfx/interface/ideas/ARI_strangereal_remnanats.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PLACEHOLDER"
 		texturefile = "gfx/interface/ideas/PLACEHOLDER.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_hellaverse_remnants"
-		texturefile = "gfx/interface/ideas/FOX_hellaverse_remnants.dds"
+		name = "GFX_idea_PLACEHOLDER"
+		texturefile = "gfx/interface/ideas/PLACEHOLDER.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_world_war_two_remnants"
-		texturefile = "gfx/interface/ideas/FOX_world_war_two_remnants.dds"
+		name = "GFX_idea_ARI_helghast_remnants"
+		texturefile = "gfx/interface/ideas/ARI_helghast_remnants.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_he_is_the_eggman"
-		texturefile = "gfx/interface/ideas/FOX_he_is_the_eggman.dds"
+		name = "GFX_idea_ARI_OSS_remnants"
+		texturefile = "gfx/interface/ideas/ARI_OSS_remnants.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_FOX_purist_threat"
-		texturefile = "gfx/interface/ideas/FOX_purist_threat.dds"
+		name = "GFX_idea_ARI_cold_war_remnants"
+		texturefile = "gfx/interface/ideas/ARI_cold_war_remnants.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ARI_siren_threat"
+		texturefile = "gfx/interface/ideas/ARI_siren_threat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ARI_purist_threat"
+		texturefile = "gfx/interface/ideas/ARI_purist_threat.dds"
 	}
 	
 	#Aces
 	
 	spriteType = {
-		name = "GFX_ERB_ace_Marcus_Lampurt" 
-		texturefile = "gfx/aces/GFX_ERB_ace_Marcus_Lampert.dds" 
+		name = "ARI_ace_three_strikes" 
+		texturefile = "gfx/aces/ARI_ace_three_strikes.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_ERB_ace_Ashton_Doolittle" 
-		texturefile = "gfx/aces/ERB_UNSC_ace.dds" 
+		name = "ARI_ace_f2" 
+		texturefile = "gfx/aces/ARI_ace_f2.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_ERB_ace_James_Kennedy" 
-		texturefile = "gfx/aces/ERB_UNSC_ace.dds" 
+		name = "ARI_ace_erle_gerd" 
+		texturefile = "gfx/aces/ERB_EFSF_ace.dds" 
+	}
+
+	spriteType = {
+		name = "ARI_ace_alva_sture" 
+		texturefile = "gfx/aces/ERB_EFSF_ace.dds" 
 	}
 	
 	spriteType = {
-		name = "GFX_ERB_ace_Fox_McCloud" 
-		texturefile = "gfx/aces/GFX_ERB_ace_Fox_McCloud.dds" 
+		name = "ARI_ace_f22" 
+		texturefile = "gfx/aces/ARI_ace_f22.dds" 
 	}
 	
 	spriteType = {

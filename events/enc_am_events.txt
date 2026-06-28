@@ -1,6 +1,6 @@
 ﻿add_namespace = enc_am
 
-country_event = { #3 Rings & Plasma Cartridges
+country_event = { #1 Rings & Plasma Cartridges
 	id = enc_am.1
 	title = enc_am.1.t
 	desc = enc_am.1.d
@@ -22,6 +22,7 @@ country_event = { #3 Rings & Plasma Cartridges
 		add_popularity = {
 			ideology = intellectuals
 			popularity = 0.1 
+			}
 		hidden_effect = {
 			add_ideas = {
 				ARI_helgian_remnants
@@ -100,8 +101,8 @@ country_event = { #3 Rings & Plasma Cartridges
 			
 			country_event = { id = enc_am.5 days = 365 }
 			country_event = { id = enc_am.2 }
-			country_event = { id = enc_am.8 }
-			country_event = { id = enc_am.9 }
+			country_event = { id = enc_am.8 days = 30}
+			country_event = { id = enc_am.9 days = 20}
 			
 		}
 	}
@@ -110,8 +111,6 @@ country_event = { #3 Rings & Plasma Cartridges
 		custom_effect_tooltip = enc_am_no_furries_tt
 		}
 	}
-
-}
 country_event = { #2 American Heroes
 	id = enc_am.2
 	title = enc_am.2.t
@@ -140,15 +139,78 @@ country_event = { #2 American Heroes
 				ARI_henry_arnold ={
 					set_nationality = ERB 
 				}
-				ARI_wopr ={
+				ARI_general_george_marshall ={
 					set_nationality = ERB 
 				}
 				ARI_admiral_ricktover ={
 					set_nationality = ERB 
 				}
-				ARI_general_george_marshall ={
+				ARI_george_washington ={
 					set_nationality = ERB 
 				}
+				ARI_general_john_pershing ={
+					set_nationality = ERB 
+				}				
+				ARI_chesty_puller ={
+					set_nationality = ERB 
+				}				
+				ARI_smedly_bulter ={
+					set_nationality = ERB 
+				}
+				ARI_elmo_zumwalt ={
+					set_nationality = ERB 
+				}				
+				ARI_john_mccain_sr ={
+					set_nationality = ERB 
+				}
+				ARI_arleigh_burke ={
+					set_nationality = ERB 
+				}
+				ARI_forrest_sherman ={
+					set_nationality = ERB 
+				}
+				ARI_albert_jacka ={
+					set_nationality = ERB 
+				}
+				ARI_harding_leaf ={
+					set_nationality = ERB 
+				}
+				ARI_willis_lee ={
+					set_nationality = ERB 
+				}
+				ARI_carl_spaatz ={
+					set_nationality = ERB 
+				}		
+				ARI_wopr ={
+					set_nationality = ERB 
+				}
+				ARI_general_brasch ={
+					set_nationality = ERB 
+				}
+				ARI_goku ={
+					set_nationality = ERB 
+				}
+				ARI_v1 ={
+					set_nationality = ERB 
+				}
+				ARI_solaire ={
+					set_nationality = ERB 
+				}
+				ARI_anatoly ={
+					set_nationality = ERB 
+				}
+				ARI_khrushchev ={
+					set_nationality = ERB 
+				}
+				ARI_freddy_fazbear ={
+					set_nationality = ERB 
+				}
+				ARI_hal_9000 ={
+					set_nationality = ERB 
+				}
+				ARI_paul_t_heinz ={
+					set_nationality = ERB 
+				}				
 			}
 			load_oob = ARI_CW_division_remnants
 			add_equipment_to_stockpile = { #Guns
@@ -221,25 +283,13 @@ country_event = { #5 Remembering Yamato
 	picture = GFX_event_enc_am_remembering_yamato
 	fire_only_once = yes
 	is_triggered_only = yes
-	option = { #Sonic...
+	option = { #Yuki...
 		name = enc_am.5.a
 		custom_effect_tooltip = enc_remembering_yamato_tt
 		
 		hidden_effect = { 
 		ARI = {
-				ARI_james_mattis ={
-					set_nationality = ERB 
-				}
-				ARI_henry_arnold ={
-					set_nationality = ERB 
-				}
-				ARI_wopr ={
-					set_nationality = ERB 
-				}
-				ARI_admiral_ricktover ={
-					set_nationality = ERB 
-				}
-				ARI_general_george_marshall ={
+				ARI_susumu_kodai ={
 					set_nationality = ERB 
 				}
 			}
@@ -285,69 +335,31 @@ country_event = { #7 Mech Warfare?!
 			ideology = intellectuals
 			popularity = 0.03
 		}
-		create_corps_commander = {
-			name = "Central"
-			traits = {
-				survivalist_trait
-				perceptive_trait
-				expert_improviser
-				skilled_trait
-				commando_trait
-				enduring_trait
-				eop_war_hero
-				eop_military_legacy
-				eop_brilliant_strategist
-				eop_loyal_american
+				hidden_effect = {
+			add_ideas = {
+				ARI_cold_war_remnants
+				ARI_OSS_remnants
 			}
-			portrait_path = "gfx/leaders/enc_am_central.dds"
-			skill = 6
-			attack_skill = 5
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1
+			ARI = {
+				ARI_central ={
+					set_nationality = ERB 
+				}
+				ARI_george_hammond ={
+					set_nationality = ERB 
+				}
+				ARI_major_strickland ={
+					set_nationality = ERB 
+				}
+				ARI_dio ={
+					set_nationality = ERB 
+				}
+				ARI_colonel_cobar ={
+					set_nationality = ERB 
+				}
+				ARI_colonel_radec ={
+					set_nationality = ERB 
+				}				
 			}
-		create_corps_commander {
-			name = "Albert Jacka"
-			traits = {
-				survivalist_trait
-				perceptive_trait
-				expert_improviser
-				skilled_trait
-				commando_trait
-				enduring_trait
-				eop_war_hero
-				eop_military_legacy
-				eop_brilliant_strategist				
-			}
-			portrait_path = "gfx/leaders/enc_am_albert_jacka.dds"
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1			
-		}
-		create_corps_commander {
-			name = "Harding Leaf"
-			traits = {
-				survivalist_trait
-				perceptive_trait
-				expert_improviser
-				skilled_trait
-				commando_trait
-				enduring_trait
-				eop_war_hero
-				eop_military_legacy
-				eop_brilliant_strategist				
-			}
-			portrait_path = "gfx/leaders/enc_am_harding_leaf.dds"
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1			
 		}
 	}
 }
@@ -359,7 +371,7 @@ country_event = { #8 Shipgirls
 	picture = GFX_event_hellaverse
 	fire_only_once = yes
 	is_triggered_only = yes
-	option = { #Gamining?!
+	option = { #Gaming?!
 		name = enc_am.8.a
 		custom_effect_tooltip = enc_ARI_USF_tt
 		add_manpower = 1776
@@ -367,10 +379,61 @@ country_event = { #8 Shipgirls
 		hidden_effect = {
 			add_ideas = ARI_united_azur_fleets
 			ARI = {
-				ARI_HMS_hood ={
+				ARI_hms_hood ={
 					set_nationality = ERB 
 				}
-				FOX_moxxie ={
+				ARI_al_uss_enterprise ={
+					set_nationality = ERB 
+				}
+				ARI_al_uss_new_jersey ={
+					set_nationality = ERB 
+				}
+				ARI_al_kms_bismark ={
+					set_nationality = ERB 
+				}
+				ARI_al_kms_tirpitz ={
+					set_nationality = ERB 
+				}
+				ARI_al_ijn_mikasa ={
+					set_nationality = ERB 
+				}
+				ARI_al_uss_yorktown ={
+					set_nationality = ERB 
+				}			
+				ARI_al_uss_hornet ={
+					set_nationality = ERB 
+				}	
+				ARI_al_uss_arizona ={
+					set_nationality = ERB 
+				}	
+				ARI_al_uss_pennsylvania ={
+					set_nationality = ERB 
+				}	
+				ARI_al_ijn_kaga ={
+					set_nationality = ERB 
+				}	
+				ARI_al_ijn_akagi ={
+					set_nationality = ERB 
+				}	
+				ARI_al_ijn_takao ={
+					set_nationality = ERB 
+				}	
+				ARI_al_ijn_atago ={
+					set_nationality = ERB 
+				}	
+				ARI_kc_ijn_akagi ={
+					set_nationality = ERB 
+				}	
+				ARI_kc_ijn_kaga ={
+					set_nationality = ERB 
+				}	
+				ARI_kc_ijn_musashi ={
+					set_nationality = ERB 
+				}	
+				ARI_kc_uss_hornet ={
+					set_nationality = ERB 
+				}	
+				ARI_kc_uss_iowa ={
 					set_nationality = ERB 
 				}
 			}
@@ -378,98 +441,49 @@ country_event = { #8 Shipgirls
 	}
 }
 
-country_event = { #9 UNSC
+country_event = { #9 EFSF
 	id = enc_am.9
 	title = enc_am.9.t
 	desc = enc_am.9.d
-	picture = GFX_event_UNSC
+	picture = GFX_event_EFSF
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { #Partying?!
 		name = enc_am.9.a
-		custom_effect_tooltip = enc_FOX_UNSC_tt
+		custom_effect_tooltip = enc_ARI_EFSF_tt
 		add_manpower = 890
 		hidden_effect = {
-			load_oob = FOX_UNSC_remnants
+			load_oob = ARI_EFSF_remnants
 			add_ideas = {
 				ARI_EFSF_remnants
 			}
-			add_ace = { #UNSC 1
-				name = "Ashton"
-				surname = "Doolittle"
-				callsign = "Otterman"
-				type = support_genius
+			add_ace = { #Random EFSF Pilot 1
+				name = "Erle"
+				surname = "Gerd"
+				callsign = "Condor"
+				type = fighter_genius
 			}
-			add_ace = { #UNSC 2
-				name = "James"
-				surname = "Kennedy"
-				callsign = "Royalty One"
-				type = support_genius
-			}
-			FOX = {
-				FOX_fleet_admiral_hood = {
+			add_ace = { #Random EFSF Pilot 2
+				name = "Alva"
+				surname = "Sture"
+				callsign = "Midnight"
+				type = fighter_genius
+			}		
+			ARI = {
+				ARI_sdv_04 = {
 					set_nationality = ERB 
 				}
-				FOX_major_general_nicolas_strauss = {
+				ARI_amuro_ray = {
 					set_nationality = ERB 
 				}
-				FOX_colonel_urban_holland = {
+				ARI_char_aznable = {
 					set_nationality = ERB 
 				}
-				FOX_arbiter = { 
-					set_nationality = ERB 
-				}
-				FOX_Rtas_Vadum = { #Commander
+				ARI_haro = { 
 					set_nationality = ERB 
 				}
 			}
-			create_corps_commander = {
-			name = "Gunnery Sergeant Major Edward J. Buck"
-			traits = {
-				eop_war_hero
-				eop_hell_jumper
-				lucky_trait
-				idiot_savant_trait
-				eop_marine_commander
-				Stubborn_trait
-				paratrooper
-				eop_enclave_survivor
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_buck.dds"
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = -1
-			}
-			create_corps_commander = {
-			name = "Major Avery Johnson"
-			traits = {
-				eop_war_hero
-				strong_trait
-				sniper_trait
-				enduring_trait
-				charismatic_trait
-				inspirational_trait
-				agile_trait
-				lucky_trait
-				mysterious_stranger_trait
-				eop_marine_commander
-				loved_leader_trait
-				eop_military_legacy
-				eop_enclave_survivor
-				exiled_leader
-			}
-			portrait_path = "gfx/leaders/enc_am_johnson.dds"
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = -1
-			}
+			
 			add_equipment_to_stockpile = { #Guns
 				type = ballistic_equipment_2
 				amount = 1945
@@ -509,11 +523,70 @@ country_event = { #9 UNSC
 	}
 }
 
-
-country_event = { #10 Enclave? Accepting Mutants? Yeah right! What's next a blond idiot with a 410 foot tall fox?(Yes Kurama is that tall and jacked as shit.)
+country_event = { #10 Siren/Abysal Mini-Boss
 	id = enc_am.10
 	title = enc_am.10.t
 	desc = enc_am.10.d
+	picture = GFX_event_Eggman_Start_event
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_reform	
+		has_completed_focus = enc_purge_opposition
+		has_country_flag = ARI_siren_threat_active
+	}
+	mean_time_to_happen = {
+		days = 50
+	}
+	option = { #He Has a Plan
+		name = enc_am.10.a
+		trigger = {
+			NOT = {
+				has_global_flag = rbr_active
+			}
+		}
+		custom_effect_tooltip = enc_ARI_sirens_dang_it_tt
+		add_ideas = ARI_siren_threat
+	}
+	option = { #He Has a Plan
+		name = enc_am.10.a
+		trigger = {
+			has_global_flag = rbr_active
+		}
+		custom_effect_tooltip = enc_ARI_sirens_dang_it_tt
+		add_ideas = ARI_siren_threat
+	}
+}
+
+country_event = { #11 Purist Mayhem Final Boss <- VERY HARD!
+	id = enc_am.11
+	title = enc_am.11.t
+	desc = enc_am.11.d
+	picture = GFX_event_FOX_Purist_Start_event
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_reform	
+		has_completed_focus = enc_purge_opposition
+		has_country_flag = ARI_siren_threat_active
+	}
+	mean_time_to_happen = {
+		days = 20
+	}
+	option = { #I thought we were done with this
+		name = enc_am.11.a
+		custom_effect_tooltip = enc_ARI_purists_oh_come_on_tt
+		add_ideas = FOX_purist_threat
+		#set_country_flag = FOX_purist_threat_active
+	}
+}
+
+country_event = { #12 Enclave? Accepting Mutants? Yeah right!
+	id = enc_am.12
+	title = enc_am.12.t
+	desc = enc_am.12.d
 	picture = GFX_event_FOX_HOLY_FUCK_event
 	fire_only_once = yes
 	is_triggered_only = no
@@ -526,8 +599,8 @@ country_event = { #10 Enclave? Accepting Mutants? Yeah right! What's next a blon
 		country_exists = NCR
 	}
 	option = { #I thought we were done with this
-		name = enc_am.10.a
-		custom_effect_tooltip = enc_FOX_huh_good_for_something_after_all_tt
+		name = enc_am.12.a
+		custom_effect_tooltip = enc_ARI_huh_good_for_something_after_all_tt
 		set_temp_variable = {
 			var = suspicion_change_var
 			value = -200

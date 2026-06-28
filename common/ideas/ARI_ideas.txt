@@ -44,7 +44,7 @@ ideas = {
 		}
 		ARI_EFSF_remnants = {
 			name = "EFSF Remnants"
-			picture = ARI_efsf_remnants
+			picture = ARI_EFSF_remnanats
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -202,7 +202,7 @@ ideas = {
 		}
 		ARI_helgian_remnants = { 
 			name = "Helgian Remnants"
-			picture = FOX_hellaverse_remnants
+			picture = ARI_helghast_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -226,7 +226,7 @@ ideas = {
 			}
 		}
 		ARI_cold_war_remnants = { 
-			name = "American Heroes"
+			name = "Cold War Remnants"
 			picture = ARI_cold_war_remnants
 			allowed = { always = no	}
 			allowed_civil_war = { always = yes }

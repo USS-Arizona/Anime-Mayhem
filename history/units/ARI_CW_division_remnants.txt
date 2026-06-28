@@ -26,26 +26,26 @@ division_template = {
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 2 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		fireteam_infantry = { x = 0 y = 3 }
-		fireteam_infantry = { x = 1 y = 3 }
-		fireteam_infantry = { x = 2 y = 3 }
+		motorized_fireteam = { x = 3 y = 0 }
+		motorized_fireteam = { x = 3 y = 1 }
+		fireteam_infantry = { x = 3 y = 2 }
 	}
 
 	support = {
 		recon_company = { x = 0 y = 0 }
-		logistics_company = { x = 0 y = 1 }
-		motorized_maintenance_company = { x = 0 y = 2 }
-		motorized_recon_company = { x = 0 y = 3 }
-		medical_chem_company = { x = 0 y = 4 }
-		anti_air_support { x = 0 y = 5}
+		logistics_company = { x = 1 y = 0 }
+		motorized_maintenance_company = { x = 2 y = 0 }
+		motorized_recon_company = { x = 3 y = 0 }
+		medical_chem_company = { x = 4 y = 0 }
+		anti_air_support { x = 5 y = 0}
 	}
 }
 
