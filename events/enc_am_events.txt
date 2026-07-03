@@ -64,6 +64,9 @@ country_event = { #1 Rings & Plasma Cartridges
 				ARI_snake ={
 					set_nationality = ERB 
 				}
+				ARI_bubbles ={
+					set_nationality = ERB 
+				}				
 			}
 			set_technology = {
 				implant_rejection_therapy_tech = 1

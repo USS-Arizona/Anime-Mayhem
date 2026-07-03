@@ -6,7 +6,7 @@ characters = {
 		name = "Major Eddie Foxtrot"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_am_eddie_foxtrot.dds
+				small = gfx/interface/ideas/enc_am_advisor_eddie_foxtrot.dds
                 large = gfx/leaders/enc_am_eddie_foxtrot.dds
             }
         }
@@ -112,7 +112,7 @@ characters = {
 		name = "Three 'Trigger' Strikes"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_am_trigger.dds
+				small = gfx/interface/ideas/enc_am_advisor_trigger.dds
                 large = gfx/leaders/enc_am_trigger.dds
             }
         }
@@ -157,7 +157,7 @@ characters = {
 		name = "Commadant James Mattis"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_am_james_mattis.dds
+				small = gfx/interface/ideas/enc_am_advisor_james_mattis.dds
                 large = gfx/leaders/enc_am_james_mattis.dds
             }
         }
@@ -227,7 +227,7 @@ characters = {
 		name = "General Henry 'Hap' Arnold"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_am_henry_h_arnold.dds
+				small = gfx/interface/ideas/enc_am_advisor_henry_h_arnold.dds
                 large = gfx/leaders/enc_am_henry_h_arnold.dds
             }
         }
@@ -285,7 +285,7 @@ characters = {
 		portraits = {
             navy = {
                 large = gfx/leaders/enc_am_admiral_ricktover.dds
-				small = gfx/interface/ideas/enc_am_admiral_ricktover.dds
+				small = gfx/interface/ideas/enc_am_advisor_admiral_ricktover.dds
             }
         }
 		navy_leader = {
@@ -325,7 +325,7 @@ characters = {
 		name = "General George C. Marshall"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_am_george_marshall.dds
+				small = gfx/interface/ideas/enc_am_advisor_george_marshall.dds
                 large = gfx/leaders/enc_am_george_marshall.dds
             }
         }
@@ -411,7 +411,7 @@ characters = {
 		name = "General John Pershing"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_am_john_pershing.dds
+				small = gfx/interface/ideas/enc_am_advisor_john_pershing.dds
                 large = gfx/leaders/enc_am_john_pershing.dds
             }
         }
@@ -735,7 +735,7 @@ characters = {
 		name = "General Carl Spaatz"
 		portraits = {
 			army = {
-				small = gfx/interface/ideas/enc_am_carl_spaatz.dds
+				small = gfx/interface/ideas/enc_am_advisor_carl_spaatz.dds
                 large = gfx/leaders/enc_am_carl_spaatz.dds
             }
         }
@@ -879,7 +879,7 @@ characters = {
 		portraits = {
             army = {
                 large = gfx/leaders/enc_am_al_hms_hood.dds
-				small = gfx/interface/ideas/enc_am_al_hms_hood.dds
+				small = gfx/interface/ideas/enc_am_advisor_al_hms_hood.dds
             }
         }
 		navy_leader = {
@@ -1672,7 +1672,7 @@ characters = {
 		name = "V1"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_miles_nine_tails_prower_advisor.dds
+				small = gfx/interface/ideas/enc_am_advisor_v1.dds
                 large = gfx/leaders/enc_am_v1.dds
             }
         }
@@ -1745,7 +1745,7 @@ characters = {
 		name = "General Brasch"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_amadeus_prower_advisor.dds
+				small = gfx/interface/ideas/enc_am_advisor_general_brasch.dds
                 large = gfx/leaders/enc_am_general_brasch.dds
             }
         }
@@ -1799,7 +1799,7 @@ characters = {
 		name = "War Operation Plan Response"
 		portraits = {
            army = {
-				small = gfx/interface/ideas/enc_furry_specialist_moxxie_advisor.dds
+				small = gfx/interface/ideas/enc_am_advisor_wopr.dds
                 large = gfx/leaders/enc_am_wopr.dds
             }
         }
