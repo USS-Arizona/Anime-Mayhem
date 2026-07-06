@@ -94,27 +94,27 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "ARI_ace_three_strikes" 
-		texturefile = "gfx/aces/ARI_ace_three_strikes.dds" 
+		texturefile = "gfx/aces/GFX_ARI_ace_three_strikes.dds" 
 	}
 	
 	spriteType = {
 		name = "ARI_ace_f2" 
-		texturefile = "gfx/aces/ARI_ace_f2.dds" 
+		texturefile = "gfx/aces/GFX_ARI_ace_f2.dds" 
 	}
 	
 	spriteType = {
 		name = "ARI_ace_erle_gerd" 
-		texturefile = "gfx/aces/ERB_EFSF_ace.dds" 
+		texturefile = "gfx/aces/GFX_ERB_EFSF_ace.dds" 
 	}
 
 	spriteType = {
 		name = "ARI_ace_alva_sture" 
-		texturefile = "gfx/aces/ERB_EFSF_ace.dds" 
+		texturefile = "gfx/aces/GFX_ERB_EFSF_ace.dds" 
 	}
 	
 	spriteType = {
 		name = "ARI_ace_f22" 
-		texturefile = "gfx/aces/ARI_ace_f22.dds" 
+		texturefile = "gfx/aces/GFX_ARI_ace_f22.dds" 
 	}
 	
 	spriteType = {

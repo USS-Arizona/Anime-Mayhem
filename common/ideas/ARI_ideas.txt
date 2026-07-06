@@ -157,7 +157,7 @@ ideas = {
 				intel_from_combat_factor = 1
 				intel_from_operatives_factor = 1
 				intel_network_gain_factor = 0.25
-				intelligence_agency_defense = -0.50
+				intelligence_agency_defense = 10
 				agency_upgrade_time = 0.50
 				max_command_power = -50
 			}
